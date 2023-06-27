@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* -------------------------------------------- Reset html */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+/* -------------------------------------------- Header */
+
+.logo-text h1 {
+    /* /* margin-left: 5px;? */
+    /* margin-top: 5px; */
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.logo-text {
+    /* background-color: blanchedalmond; */
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation ul li {
+    display: inline-block; 
+    padding-right: 1px;
+
+} 
+
+
+.navigation {
+    /* background-color: azure; */
+    /* position: relative; */
+}
+
+
+/* vertical alignment learnt from this source https://www.w3.org/Style/Examples/007/center.en.html */
+.navigation ul {
+    padding: 0;
+    text-align: center;
+ 
+}
+
+.navigation a {
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid grey;
+    /* border-radius: 10%; */
+}
+
+/* -------------------------------------------- Colours */
+
+.bg-colour-header {
+    background-color: #f0e6ef;
+    min-height: 85px;
+}
+
+
