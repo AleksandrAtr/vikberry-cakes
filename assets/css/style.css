@@ -1,3 +1,8 @@
+
+/* --------------------------------------------Imported Google fonts */
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-family: 'Fasthand', cursive; */
+    /* font-family: 'Michroma', sans-serif; */
 /* --------------------------------------------Reset html styling */
 * {
     margin: 0;
@@ -17,6 +22,14 @@
     --first-colour: #7272af;
     --second-colour: #fff4f7;
     --third-colour: pink;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    color: #272626;
+    letter-spacing: 2px;
+    font-size: 2.5em;
   }
   
   /* -------------------------------------------- Navigtion bar */
@@ -38,25 +51,29 @@
   
   .nav-list .nav-list-item {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 20px;
   }
   
   
   .navbar a {
     color: var(--second-colour);
     text-decoration: none;
-    height: 120px;
+    height: 50px;
   }
   
   .navbar a:hover {
     color: #ff668e;
   }
+
+  .logo {
+    z-index: 1;
+  }
   
   .logo img {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
-    margin: 10px 0 10px 10px;
+    margin: 10px 0 0 25px;
   }
   
   .menu-icon {
@@ -70,11 +87,67 @@
     display: none;
   }
 
+/* -------------------------------------------- Home page Hero design */
 
+.home-hero {
+    /* display: grid; */
+    /* place-items: middle; */
+    position: relative;
+    background-color: var(--first-colour);
+    background-image: url(../images/home/hero-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 20%;
+    text-align: center;
+    height: 600px;
+  }
 
+  .home-hero div {
+    border-radius: 10px;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff4f799;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .home-hero a {
+    max-width: fit-content;
+    font-size: 1em;
+    background-color: var(--second-colour);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+  }
+
+  .hero-text a {
+    background-color: #58835a;
+    color: var(--second-colour);
+    font-family:   Roboto;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .hero-products:hover {
+    background-color: var(--first-colour);
+    color: #ff668e;
+  }
+
+/* Responsive design section------------------------------------------------------*/
   /* -------------------------------------------- Navigtion bar responsive design */
 @media all and (max-width: 600px) {
     .navbar {
+      display: flex;
+      /* flex-direction: column; */
       position: relative;
     }
   
@@ -82,14 +155,13 @@
       display: block;
       position: absolute;
       right: 15px;
-      top: 50px;
+      top: 15px;
     }
   
     .nav-list {
       list-style-type: none;
       width: 100%;
       text-align: center;
-      padding-top: 10px;
       padding-left: 0;
       display: none;
     }
@@ -99,12 +171,18 @@
       border-top: 1px solid white;
     }
   
-    /* .logo-container {
-      width: 100%;
-    } */
-  
     .active {
       display: block;
     }
+
+    .logo img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      margin: 10px;
   
+    }
   }
+
+
+  
