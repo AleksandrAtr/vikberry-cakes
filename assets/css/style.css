@@ -56,7 +56,7 @@
   
   .nav-list .nav-list-item {
     display: inline-block;
-    padding-right: 20px;
+    padding: 5px 20px 5px 0;
   }
   
   
@@ -161,6 +161,7 @@
   
   .review-pane {
     display: flex;
+    margin-bottom: 90px;
   }
 
   .review {
@@ -185,6 +186,66 @@
     padding: 5px;
   }
   
+  /* -------------------------------------------- Footer bar design */
+.footer-wrapper {
+  background-color: var(--first-colour);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--second-colour);
+  bottom: 0px;
+}
+
+.footer-item-1 address ul {
+  padding: 10px 0 10px 10px;
+}
+
+.footer-item-2 {
+  text-align: center;
+}
+
+.footer-item-2 p {
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sign-up {
+  padding: 10px 10px;
+  /* border: #7272af solid 1px; */
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: var(--second-colour);
+  font-weight: 600;
+  color: var(--first-colour);
+  letter-spacing: 0.2mm;
+  border: none;
+}
+
+.footer-item-3 ul {
+  display: flex;
+  color: var(--second-colour);
+  margin-right: 10px;
+}
+
+.footer-item-3 ul li {
+  padding: 0 15px;
+  font-size: 2rem; 
+}
+
+
+
+footer {
+  
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
 
 /* Responsive design section------------------------------------------------------*/
 
@@ -225,7 +286,6 @@
       width: 60px;
       border-radius: 50%;
       margin: 10px;
-  
     }
   }
 
@@ -236,5 +296,25 @@
       flex-direction: column;
     }
   }
+  /* -------------------------------------------- Footer bar responsive design */
+@media all and (max-width: 600px) {
 
-  
+   .footer-item-1 {
+    display: none;
+  }
+
+  .footer-wrapper {
+    justify-content: center;
+  }
+
+  .footer-item-2 {
+    /* margin-left: 10px; */
+    padding: 10px;
+    
+  }
+
+  .footer-item-2 p {
+    display: none;
+  }
+
+}
