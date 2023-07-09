@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VikBerry Cakes</title>
+    <script src="https://kit.fontawesome.com/9c0d1f1ea6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&family=Fasthand&family=Michroma&&family=Playfair+Display&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img class="" src="assets/images/logo/logo.png" alt="Brand logo">
+            </a>
+            <ul class="nav-list" id="navigation-list">
+                <li class="nav-list-item"> <a href="index.html">Home</a></li>
+                <li class="nav-list-item"> <a href="#">Products</a></li>
+                <li class="nav-list-item"> <a href="#">About</a></li>
+                <li class="nav-list-item"> <a href="#">Contact</a></li>
+            </ul>
+            <div class="fold-menu" id="toggle-button">
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <header class="range-head">
+            <div class="range-intro">
+            <h1>Our range of products!!!</h1>
+            <p>VikBerry Cakes offers a range of options to choose from or the ability to order a personalised cake for any theme. Whether you're looking for a classic cake or something more unique, we can create the perfect cake for your occasion. Look at what we offer and see which one is right for you. For order information refer to <a href="#">FAQ page</a> .</p>
+        </div>
+        </header>
+        <main class="main-display">
+            <div class="display-item">
+                <img src="assets/images/products/choc-strawbery.png" alt="choc-strawbery cake">
+                <h3>Cakezilla from £49</h3>
+            </div>
+            <div class="display-item">
+                <img src="assets/images/products/choco-fruit.png" alt="choc-strawbery cake">
+                <h3>Happy Belly Delight from £49</h3>
+            </div>
+            <div class="display-item">
+                <img src="assets/images/products/cream-strawbery.png" alt="choc-strawbery cake">
+                <h3>Whisk Me Away from £49</h3>
+            </div>
+            <div class="display-item">
+                <img src="assets/images/products/carrot-cream.png" alt="choc-strawbery cake">
+                <h3>The Great Cake Escape from £49</h3>
+            </div>
+            <div class="display-item">
+                <img src="assets/images/products/fig-cream.png" alt="choc-strawbery cake">
+                <h3>Chuckleberry Special from £49</h3>
+            </div>
+            <div class="display-item">
+                <img src="assets/images/products/honey-cream.png" alt="choc-strawbery cake">
+                <h3>Creamy Dreamy Delight from £49</h3>
+            </div>
+        </main>
+    </section>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-item-1">
+                <address>
+                    <ul class="address-list">
+                        <li>Address:</li>
+                        <li>152 Barking Rd,</li>
+                        <li>London,</li>
+                        <li>E16 1EN</li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-item-2" role="">
+                <form action="www.facebook.com">
+                    <button type="submit" class="sign-up">
+                        Sign Up
+                    </button>
+                </form>
+                <p>To our newsletters</p>
+            </div>
+            <div class="footer-item-3" role="">
+                <ul>
+                    <li><i class="fa-brands fa-facebook fa-lg"></i></li>
+                    <li><i class="fa-brands fa-instagram fa-lg"></i></li>
+                    <li><i class="fa-brands fa-whatsapp fa-lg"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- adding Javascript functionality for 'Burger' menu-->
+<script>
+    const toggleButton = document.getElementById('toggle-button')
+    const navigationList = document.getElementById('navigation-list')
+    toggleButton.addEventListener('click', () => {
+        navigationList.classList.toggle('active');
+    })
+</script>
+</html>
