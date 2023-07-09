@@ -29,13 +29,24 @@
     font-family: 'Playfair Display', sans-serif;
     font-weight: 400;
     color: #272626;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 2.5em;
+  }
+
+  p {
+    font-family: 'Loto', sans-serif;
+    /* font-weight: 400; */
+    color: var(--text-main-colour);
+    letter-spacing: 0.5px;
+    /* font-size: 2.5em; */
   }
 
   body {
     background-color: var(--second-colour);
+    position: relative;
   }
+
+  
   
   /* -------------------------------------------- NAVIGATION bar */
   .navbar {
@@ -152,6 +163,7 @@
 .home-review {
   background-color: var(--second-colour);
   padding: 0 0 20px 0;
+  overflow: hidden;
 }
   
   .home-review h1 {
@@ -207,6 +219,7 @@
 
 .footer-item-2 p {
   margin-top: 10px;
+  color: var(--second-colour);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -237,15 +250,63 @@ button {
   font-size: 2rem; 
 }
 
-
-
 footer {
-  
   position: fixed;
   bottom: 0px;
   width: 100%;
 }
 
+/* ------------------PRODUCTS----------------------*/
+
+.range-head {
+  height: auto;
+  width: 100%;
+  /* background-color: #58835a; */
+  text-align: center;
+  margin: 0px auto;
+  padding-bottom: 10px;
+}
+
+.range-intro {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  max-width: 600px;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+
+.range-intro p {
+  z-index:2;
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+
+.main-display {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px;
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+
+.display-item {
+  max-width: 450px;
+  overflow: hidden;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.display-item img {
+width: 95%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.display-item h3 {
+  padding: 15px;
+  text-align: left;
+}
 
 /* Responsive design section------------------------------------------------------*/
 
@@ -316,5 +377,18 @@ footer {
   .footer-item-2 p {
     display: none;
   }
+}
 
+ /* -------------------------------------------- Products header responsive design */
+
+@media all and (max-width: 600px) {
+  .range-intro {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    max-width: 600px;
+    padding-top: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
 }
