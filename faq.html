@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VikBerry Cakes</title>
+    <script src="https://kit.fontawesome.com/9c0d1f1ea6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&family=Fasthand&family=Michroma&&family=Playfair+Display&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img class="" src="assets/images/logo/logo.png" alt="Brand logo">
+            </a>
+            <ul class="nav-list" id="navigation-list">
+                <li class="nav-list-item"> <a href="index.html">Home</a></li>
+                <li class="nav-list-item"> <a href="products.html">Products</a></li>
+                <li class="nav-list-item"> <a href="faq.html">FAQ</a></li>
+                <li class="nav-list-item"> <a href="#">Contact</a></li>
+            </ul>
+            <div class="fold-menu" id="toggle-button">
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="faq-head">
+        <header class="faq-intro">
+            <h1>Frequently Asked Questions</h1>
+        </header>
+        <main class="main-faq">
+            <div class="faq-item">
+                <h3>How do I place an order for a cake?</h3>
+                <p>You can place an order by contacting us via phone, email, or through our website order form.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What flavors and sizes of cakes do you offer?</h3>
+                <p>We offer a wide variety of flavors, including classic options like chocolate and vanilla, as well as unique flavors like red velvet and lemon. Our cakes come in various sizes, from small individual servings to larger celebration cakes.</p>
+            </div>  
+            <div class="faq-item">
+                <h3>Do you accommodate dietary restrictions or allergies?</h3>
+                <p>Yes, we offer options for gluten-free, nut-free, and dairy-free cakes. Just let us know about any dietary restrictions or allergies when placing your order, and we'll ensure a suitable cake for you.</p>
+            </div>  
+            <div class="faq-item">
+                <h3>How much notice do you need for placing an order?</h3>
+                <p>We appreciate receiving orders at least 48 hours in advance. However, for more elaborate or custom-designed cakes, we recommend contacting us well in advance to discuss the details.</p>
+            </div>  
+            <div class="faq-item">
+                <h3>Can I request a custom design or decoration for my cake?</h3>
+                <p>Absolutely! We love creating unique cakes tailored to your preferences. Share your ideas, themes, or specific designs with us, and we'll work together to make your vision a reality.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is your pricing structure for cakes?</h3>
+                <p>Our pricing depends on factors such as cake size, design complexity, and additional customizations. We'll provide you with a detailed quote once we understand your requirements.</p>
+            </div>  
+            <div class="faq-item">
+                <h3>Do you offer delivery services?</h3>
+                <p>Yes, we provide delivery services within a specified radius. Delivery charges may apply based on the distance and complexity of the order. Pickup options are also available.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How should I store the cake before serving?</h3>
+                <p>We recommend storing the cake in a cool, dry place away from direct sunlight. If the cake requires refrigeration, we'll provide specific instructions with your order.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I freeze any leftover cake?</h3>
+                <p>Yes, you can freeze leftover cake for future enjoyment. Just make sure to wrap it tightly in plastic wrap or place it in an airtight container before freezing.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is your cancellation or refund policy?</h3>
+                <p>We understand that plans can change. Please notify us as soon as possible if you need to cancel your order. Refunds may be provided depending on the circumstances and timing of the cancellation.</p>
+            </div>       
+        </main>
+    </section>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-item-1">
+                <address>
+                    <ul class="address-list">
+                        <li>Address:</li>
+                        <li>152 Barking Rd,</li>
+                        <li>London,</li>
+                        <li>E16 1EN</li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-item-2" role="">
+                <form action="www.facebook.com">
+                    <button type="submit" class="sign-up">
+                        Sign Up
+                    </button>
+                </form>
+                <p>To our newsletters</p>
+            </div>
+            <div class="footer-item-3" role="">
+                <ul>
+                    <li><i class="fa-brands fa-facebook fa-lg"></i></li>
+                    <li><i class="fa-brands fa-instagram fa-lg"></i></li>
+                    <li><i class="fa-brands fa-whatsapp fa-lg"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- adding Javascript functionality for 'Burger' menu-->
+<script>
+    const toggleButton = document.getElementById('toggle-button')
+    const navigationList = document.getElementById('navigation-list')
+    toggleButton.addEventListener('click', () => {
+        navigationList.classList.toggle('active');
+    })
+</script>
+</html>
