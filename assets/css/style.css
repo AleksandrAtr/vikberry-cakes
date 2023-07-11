@@ -118,7 +118,7 @@
     /* place-items: middle; */
     position: relative;
     background-color: var(--first-colour);
-    background-image: url(../images/home/hero-lg.jpg);
+    background-image: url(../images/home/hero-lg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 20%;
@@ -204,62 +204,56 @@
   }
   
   /* -------------------------------------------- Footer bar design */
-.footer-wrapper {
-  background-color: var(--first-colour);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  color: var(--second-colour);
-  bottom: 0px;
-}
-
-.footer-item-1 address ul {
-  padding: 10px 0 10px 10px;
-}
-
-.footer-item-2 {
-  text-align: center;
-}
-
-.footer-item-2 p {
-  margin-top: 10px;
-  color: var(--second-colour);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.sign-up {
-  padding: 10px 10px;
-  /* border: #7272af solid 1px; */
-  border-radius: 5px;
-  text-transform: uppercase;
-}
-
-button {
-  background-color: var(--second-colour);
-  font-weight: 600;
-  color: var(--first-colour);
-  letter-spacing: 0.2mm;
-  border: none;
-}
-
-.footer-item-3 ul {
-  display: flex;
-  color: var(--second-colour);
-  margin-right: 10px;
-}
-
-.footer-item-3 ul li {
-  padding: 0 15px;
-  font-size: 2rem; 
-}
-
-footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-}
+  .footer-wrapper {
+    background-color: var(--first-colour);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--second-colour);
+    bottom: 0px;
+  }
+  
+  .footer-item-1 {
+    text-align: center;
+    padding-left: 15px;
+  }
+  
+  .footer-item-1 p {
+    margin-top: 10px;
+    color: var(--second-colour);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .sign-up {
+    padding: 10px 10px;
+    /* border: #7272af solid 1px; */
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: var(--second-colour);
+    font-weight: 600;
+    color: var(--first-colour);
+    letter-spacing: 0.2mm;
+  }
+  
+  
+  .footer-item-2 ul {
+    display: flex;
+    color: var(--second-colour);
+    padding: 10px 0;
+  }
+  
+  .footer-item-2 ul li {
+    padding: 0 15px;
+    font-size: 2rem; 
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
 
 /* ------------------PRODUCTS----------------------*/
 
@@ -273,9 +267,6 @@ footer {
 }
 
 .range-intro {
-  display: flex;
-  flex-direction: column;
-  row-gap: 5px;
   max-width: 600px;
   padding-top: 60px;
   margin: 0 auto;
@@ -319,9 +310,6 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 /* ------------------FAQ----------------------*/
 
 .faq-head {
-  display: flex;
-  flex-direction: column;
-  row-gap: 5px;
   max-width: 600px;
   padding-top: 60px;
   padding-bottom: 30px;
@@ -343,6 +331,63 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 .main-faq {
   padding-bottom: 100px;
+}
+
+/* ------------------Contact----------------------*/
+
+.contact-container {
+  max-width: 600px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+.newsletter,.contact {
+  text-align: center;
+}
+
+.newsletter form { 
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.contact form { 
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  
+}
+
+.contact-button {
+  font-family: Roboto;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1em;
+  border: none;
+  background-color: #58835a;
+  color: var(--second-colour);
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.email-form {
+  padding: 5px;
+}
+
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.form-control input {
+  line-height: 1.5rem;
+}
+
+.form-c textarea{
+  /* line-height: 3rem; */
 }
 
 /* Responsive design section------------------------------------------------------*/
