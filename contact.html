@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VikBerry Cakes</title>
+    <script src="https://kit.fontawesome.com/9c0d1f1ea6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&family=Fasthand&family=Michroma&&family=Playfair+Display&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img class="" src="assets/images/logo/logo.png" alt="Brand-logo">
+            </a>
+            <ul class="nav-list" id="navigation-list">
+                <li class="nav-list-item"> <a href="index.html">Home</a></li>
+                <li class="nav-list-item"> <a href="products.html">Products</a></li>
+                <li class="nav-list-item"> <a href="faq.html">FAQ</a></li>
+                <li class="nav-list-item"> <a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="fold-menu" id="toggle-button">
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="contact-container">
+            <div class="newsletter">
+                <h1 cla>Newsletter</h1>
+                <form>
+                    <input class="email-form" type="email" name="email address" id="email" placeholder="Enter you email address">
+                    <input class="contact-button " type="button" value="Subscribe">
+                </form>
+            </div>
+            <div class="contact">
+                <h1>Contact Us</h1>
+                <p>To place an order for a personalized celebration cake, your ideal wedding cake, schedule a consultation, or if you have any general questions, get in touch.
+                    <br>
+                    <br>
+                    You can reach us by phone at 01273 093 030 or email using the form below. If you haven't received a response, please check your spam folder.
+                </p>
+                <form class="form-control">
+                    <label for="name">First Name:</label>
+                    <input type="text" name="FirstName" id="name">
+
+                    <label for="email">Email*:</label>
+                    <input type="email" name="Email" id="email">
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="phonenumber" name="Phone" id="phone">
+
+                    <label for="message">Message:</label>
+                    <textarea class="form-message" id="message" name="Message" data-max="500" data-limiting="false" ></textarea>
+
+                    <br>
+                    <input class="submit-button" type="submit" value="submit">
+                </form>
+            </div>
+
+    </section>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-item-1">
+                <address>
+                    <ul class="address-list">
+                        <li>Address:</li>
+                        <li>152 Barking Rd,</li>
+                        <li>London,</li>
+                        <li>E16 1EN</li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-item-2" role="">
+                <form action="www.facebook.com">
+                    <button type="submit" class="sign-up">
+                        Sign Up
+                    </button>
+                </form>
+                <p>To our newsletters</p>
+            </div>
+            <div class="footer-item-3" role="">
+                <ul>
+                    <li><i class="fa-brands fa-facebook fa-lg"></i></li>
+                    <li><i class="fa-brands fa-instagram fa-lg"></i></li>
+                    <li><i class="fa-brands fa-whatsapp fa-lg"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- adding Javascript functionality for 'Burger' menu-->
+<script>
+    const toggleButton = document.getElementById('toggle-button')
+    const navigationList = document.getElementById('navigation-list')
+    toggleButton.addEventListener('click', () => {
+        navigationList.classList.toggle('active');
+    })
+</script>
+</html>
