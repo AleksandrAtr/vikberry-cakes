@@ -54,6 +54,12 @@
   button {
     font-family: lato, sans-serif;
   }
+
+  label {
+    font-family: 'Roboto slab', sans-serif;
+    font-weight: 400;
+    color: var(--text-main-colour);
+  }
   
   
   /* -------------------------------------------- NAVIGATION bar */
@@ -344,17 +350,17 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 .newsletter,.contact {
   text-align: center;
+  padding: 0 10px;
 }
 
 .newsletter form { 
-  padding-top: 0.5rem;
   padding-bottom: 1rem;
 }
 
 .contact form { 
-  padding-top: 0.5rem;
+  padding-top: 10px;
   padding-bottom: 0.5rem;
-  
+  margin-top: 20px;
 }
 
 .contact-button {
@@ -374,21 +380,30 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 5px;
 }
 
-
 .form-control {
-  display: flex;
-  flex-direction: column;
-  max-width: fit-content;
-  margin: auto;
+  background-color: rgba(158, 158, 179, 0.267);
+  border-radius: 5px;
+}
+
+.form-control label {
+  display: block;
+  padding-bottom: 5px;
 }
 
 .form-control input {
   line-height: 1.5rem;
 }
 
-.form-c textarea{
-  /* line-height: 3rem; */
+.form-control textarea{
+  width: 95%;
 }
+
+/* ---- */
+
+/* .form-name-item label {
+display: block;
+} */
+
 
 /* Responsive design section------------------------------------------------------*/
 
@@ -442,9 +457,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* -------------------------------------------- Footer bar responsive design */
 @media all and (max-width: 600px) {
 
-   .footer-item-1 {
+   /* .footer-item-1 {
     display: none;
-  }
+  } */
 
   .footer-wrapper {
     justify-content: center;
@@ -454,10 +469,6 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* margin-left: 10px; */
     padding: 10px;
     
-  }
-
-  .footer-item-2 p {
-    display: none;
   }
 }
 
