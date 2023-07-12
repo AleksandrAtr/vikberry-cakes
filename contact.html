@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,12 @@
     <script src="https://kit.fontawesome.com/9c0d1f1ea6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&family=Fasthand&family=Michroma&&family=Playfair+Display&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;900&family=Fasthand&family=Michroma&&family=Playfair+Display&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -31,60 +35,49 @@
         </nav>
     </header>
     <section class="contact-container">
-            <div class="newsletter">
-                <h1 cla>Newsletter</h1>
-                <form>
-                    <input class="email-form" type="email" name="email address" id="email" placeholder="Enter you email address">
-                    <input class="contact-button " type="button" value="Subscribe">
-                </form>
-            </div>
-            <div class="contact">
-                <h1>Contact Us</h1>
-                <p>To place an order for a personalized celebration cake, your ideal wedding cake, schedule a consultation, or if you have any general questions, get in touch.
-                    <br>
-                    <br>
-                    You can reach us by phone at 01273 093 030 or email using the form below. If you haven't received a response, please check your spam folder.
-                </p>
-                <form class="form-control">
-                    <label for="name">First Name:</label>
-                    <input type="text" name="FirstName" id="name">
+        <div class="newsletter">
+            <h1 cla>Newsletter</h1>
+            <form>
+                <input class="email-form" type="email" name="email address" id="email"
+                    placeholder="Enter you email address">
+                <input class="contact-button " type="button" value="Subscribe">
+            </form>
+        </div>
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <p>To place an order for a personalized celebration cake, your ideal wedding cake, schedule a consultation,
+                or if you have any general questions, get in touch.
+                <br>
+                <br>
+                You can reach us by phone at <a href="tel:02074763548" title="tel:02074763548"
+                    aria-describedby="a11y-external-message">02074763548</a> or email using the form below. If you
+                haven't received a response, please check your spam folder.
+            </p>
+            <form class="form-control">
+                <label for="name" class="form-label">First Name:</label>
+                <input type="text" name="FirstName" id="name" class="form-label">
 
-                    <label for="email">Email*:</label>
-                    <input type="email" name="Email" id="email">
+                <label for="email">Email*:</label>
+                <input type="email" name="Email" id="email" required>
 
-                    <label for="phone">Phone Number:</label>
-                    <input type="phonenumber" name="Phone" id="phone">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="Phone" id="phone">
 
-                    <label for="message">Message:</label>
-                    <textarea class="form-message" id="message" name="Message" data-max="500" data-limiting="false" ></textarea>
-
-                    <br>
-                    <input class="submit-button" type="submit" value="submit">
-                </form>
-            </div>
+                <label for="message">Message:</label>
+                <textarea class="form-message" id="message" name="Message" data-max="500" data-limiting="false"
+                    rows="10"></textarea>
+                <br>
+                <input class="contact-button" type="submit" value="submit">
+            </form>
+        </div>
 
     </section>
     <footer>
         <div class="footer-wrapper">
-            <div class="footer-item-1">
-                <address>
-                    <ul class="address-list">
-                        <li>Address:</li>
-                        <li>152 Barking Rd,</li>
-                        <li>London,</li>
-                        <li>E16 1EN</li>
-                    </ul>
-                </address>
+            <div class="footer-item-1" role="">
+                <a href="contact.html" class="sign-up">Sign Up</a>
             </div>
             <div class="footer-item-2" role="">
-                <form action="www.facebook.com">
-                    <button type="submit" class="sign-up">
-                        Sign Up
-                    </button>
-                </form>
-                <p>To our newsletters</p>
-            </div>
-            <div class="footer-item-3" role="">
                 <ul>
                     <li><i class="fa-brands fa-facebook fa-lg"></i></li>
                     <li><i class="fa-brands fa-instagram fa-lg"></i></li>
@@ -103,4 +96,5 @@
         navigationList.classList.toggle('active');
     })
 </script>
+
 </html>
