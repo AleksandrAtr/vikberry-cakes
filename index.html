@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VikBerry Cakes</title>
+    <meta content="">
+    <meta>
     <script src="https://kit.fontawesome.com/9c0d1f1ea6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&family=Fasthand&family=Michroma&&family=Playfair+Display&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&family=Fasthand&family=Michroma&&family=Playfair+Display&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
+        <!-- Header navigation bar -->
         <nav class="navbar">
+            <!-- Brand logo -->
             <a href="index.html" class="logo">
                 <img class="" src="assets/images/logo/logo.png" alt="Brand logo">
             </a>
+            <!-- Navigation links with wraped divs for full width clickable area-->
             <ul class="nav-list" id="navigation-list">
-                <li class="nav-list-item"> <a href="index.html">Home</a></li>
-                <li class="nav-list-item"> <a href="products.html">Products</a></li>
-                <li class="nav-list-item"> <a href="faq.html">FAQ</a></li>
-                <li class="nav-list-item"> <a href="contact.html">Contact</a></li>
+                <li class="nav-list-item"> <a href="index.html">
+                        <div>Home</div>
+                    </a></li>
+                <li class="nav-list-item"> <a href="products.html">
+                        <div>Products</div>
+                    </a></li>
+                <li class="nav-list-item"> <a href="faq.html">
+                        <div>FAQ</div>
+                    </a></li>
+                <li class="nav-list-item"> <a href="contact.html">
+                        <div>Contact</div>
+                    </a></li>
             </ul>
+            <!-- Navigation links "Burger" icon -->
             <div class="fold-menu" id="toggle-button">
                 <div class="menu-icon"></div>
                 <div class="menu-icon"></div>
                 <div class="menu-icon"></div>
             </div>
         </nav>
+        <!-- Hero image iwth introduction text -->
+        <section class="home-hero">
+            <div class="hero-text">
+                <h1>
+                    London home made luxury Cakes!!!
+                </h1>
+                <!-- Link to products -->
+                <a href="products.html" class="hero-products">See Products</a>
+            </div>
+        </section>
     </header>
-    <section class="home-hero">
-        <div class="hero-text">
-            <h1>
-                London home made luxury Cakes!!!
-            </h1>
-            <a href="products.html" class="hero-products">See Products</a>
-        </div>
-    </section>
-    <section class="home-review">
-        <h1>Our Reviews</h1>
+    <!-- Main section with reviews -->
+    <main class="home-review">
+        <h2>Our Reviews</h2>
         <div class="review-pane">
             <div class="review">
                 <h4>Jessica</h4>
@@ -48,7 +69,8 @@
             </div>
             <div class="review">
                 <h4>Brian</h4>
-                <p>The birthday cake was an absolute hit! Moist layers, luscious frosting, and vibrant decorations made
+                <p>The birthday cake was an absolute hit! Moist layers, luscious frosting, and vibrant decorations
+                    made
                     it a showstopper. </p>
             </div>
             <div class="review">
@@ -58,33 +80,37 @@
             </div>
             <div class="review">
                 <h4>Gareth</h4>
-                <p>The retirement cake was a masterpiece, crafted with the utmost care and skill. It embodied a lifetime
+                <p>The retirement cake was a masterpiece, crafted with the utmost care and skill. It embodied a
+                    lifetime
                     of hard work and dedication.</p>
             </div>
         </div>
-    </section>
+    </main>
+    <!-- Footer bar -->
     <footer>
+        <!-- link to contact page for newsletter subscription -->
         <div class="footer-wrapper">
             <div class="footer-item-1" role="">
                 <a href="contact.html" class="sign-up">Sign Up</a>
             </div>
+            <!-- Social media links -->
             <div class="footer-item-2" role="">
-                <ul>
-                    <li><i class="fa-brands fa-facebook fa-lg"></i></li>
-                    <li><i class="fa-brands fa-instagram fa-lg"></i></li>
-                    <li><i class="fa-brands fa-whatsapp fa-lg"></i></li>
+                <ul class="social">
+                    <li><a href="www.facebook.com"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                    <li><a href="www.instagram.com"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                    <li><a href=" https://wa.me/447727170137"><i class="fa-brands fa-whatsapp fa-lg"></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
+    <!-- adding Javascript functionality for 'Burger' menu-->
+    <script>
+        const toggleButton = document.getElementById('toggle-button')
+        const navigationList = document.getElementById('navigation-list')
+        toggleButton.addEventListener('click', () => {
+            navigationList.classList.toggle('active');
+        })
+    </script>
 </body>
 
-<!-- adding Javascript functionality for 'Burger' menu-->
-<script>
-    const toggleButton = document.getElementById('toggle-button')
-    const navigationList = document.getElementById('navigation-list')
-    toggleButton.addEventListener('click', () => {
-        navigationList.classList.toggle('active');
-    })
-</script>
 </html>
