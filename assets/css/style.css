@@ -1,13 +1,14 @@
 /* --------------------------------------------Imported Google fonts */
-/* font-family: 'Roboto Slab', serif; */
-/* font-family: 'Fasthand', cursive; */
-/* font-family: 'Michroma', sans-serif; */
+/* font-family: 'Roboto', serif; */
+/* font-family: 'Playfair Display', serif; */
+
 /* --------------------------------------------Reset html styling */
 /* setting colour scheme */
 :root {
   --first-colour: #7272af;
   --second-colour: #f5f5f5;
   --third-colour: pink;
+  --button-bg-colour: #327a35;
   --text-main-colour: #272626;
 }
 
@@ -23,18 +24,24 @@ ul {
 
 a {
   text-decoration: none;
+  font-family: roboto;
+  letter-spacing: 1px;
 }
 
 h1 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   color: var(--text-main-colour);
   letter-spacing: 1px;
   font-size: 2.5rem;
 }
 
-h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', sans-serif;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
   color: var(--text-main-colour);
   letter-spacing: 1px;
 }
@@ -44,13 +51,25 @@ p {
   color: var(--text-main-colour);
 }
 
+header {
+  background-color: var(--first-colour);
+  /* width: 100%; */
+}
+
 body {
   background-color: var(--second-colour);
   min-width: 200px;
 }
 
+footer {
+  background-color: var(--first-colour);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
 button {
-  font-family: lato, sans-serif;
+  /* font-family: 'Times New Roman', serif; */
 }
 
 main {
@@ -59,22 +78,22 @@ main {
 }
 
 label {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 /* -------------------------------------------- NAVIGATION bar */
-.navbar {
-  background-color: var(--first-colour);
-  position: relative;
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .nav-list {
-  list-style-type: none;
-  font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
@@ -84,13 +103,12 @@ label {
   padding: 5px 20px 5px 0;
 }
 
-.navbar a {
+.nav-container a {
   color: var(--second-colour);
-  text-decoration: none;
-  height: 50px;
+  height: 40px;
 }
 
-.navbar a:hover {
+.nav-container a:hover {
   color: #ff668e;
 }
 
@@ -99,15 +117,15 @@ label {
 }
 
 .logo img {
-  height: 125px;
-  width: 125px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   margin: 10px 0 0 25px;
 }
 
 .menu-icon {
   width: 25px;
-  height: 2px;
+  height: 3px;
   margin-bottom: 5px;
   background-color: var(--second-colour);
 }
@@ -157,21 +175,20 @@ label {
 }
 
 .hero-text a {
-  background-color: #58835a;
+  background-color: var(--button-bg-colour);
   color: var(--second-colour);
-  font-family: Roboto;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .hero-products:hover {
-  background-color: var(--first-colour);
   color: #ff668e;
 }
 
 /* -------------------------------------------- Home page REVIEWS pane */
 
 .home-review {
+  /* display: block; */
   background-color: var(--second-colour);
   padding: 0 0 20px 0;
   overflow: hidden;
@@ -220,14 +237,14 @@ label {
 }
 
 /* -------------------------------------------- Footer bar design */
-.footer-wrapper {
-  background-color: var(--first-colour);
+.footer-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  color: var(--second-colour);
-  bottom: 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .footer-item-1 {
@@ -243,14 +260,15 @@ label {
 }
 
 .sign-up {
-  padding: 10px 10px;
+  padding: 7px 7px;
   border-radius: 5px;
   text-transform: uppercase;
-  background-color: var(--second-colour);
+  background-color: white;
   font-weight: 600;
-  color: var(--first-colour);
+  color: #727297;
   letter-spacing: 0.2mm;
 }
+
 
 .footer-item-2 ul {
   display: flex;
@@ -263,17 +281,16 @@ label {
   font-size: 1.5rem;
 }
 
-.social a 
-{
-    text-decoration: none;
-    color: var(--second-colour) ;
+.social a {
+
+  color: var(--second-colour);
 }
 
-footer {
+/* footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-}
+} */
 
 .footer-item-1 a:hover {
   color: #ff668e
@@ -297,16 +314,16 @@ footer {
 
 .display-container {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   padding-top: 10px;
   margin-bottom: 100px;
 }
 
 .display-item {
-  max-width: 450px;
-  overflow: hidden;
-  align-self: center;
+  max-width: 300px;
+  /* overflow: hidden;
+  align-self: center; */
   justify-self: center;
   text-align: center;
 }
@@ -350,11 +367,12 @@ footer {
 
 .newsletter {
   background-color: #f7ecee;
-    margin: 5px;
-    border-radius: 10px;
+  margin: 5px;
+  border-radius: 10px;
 }
 
-.newsletter, .contact {
+.newsletter,
+.contact {
   text-align: center;
   padding: 0 10px;
 }
@@ -374,12 +392,11 @@ footer {
 }
 
 .contact-button {
-  font-family: Roboto;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1em;
   border: none;
-  background-color: #58835a;
+  background-color: var(--button-bg-colour);
   color: var(--second-colour);
   padding: 6px;
   margin-top: 10px;
@@ -405,7 +422,8 @@ footer {
   line-height: 1.5rem;
 }
 
-.form-control input, textarea {
+.form-control input,
+textarea {
   width: 70%;
 }
 
@@ -415,21 +433,21 @@ footer {
   min-height: 200px;
 }
 
-/* Responsive design section------------------------------------------------------*/
+/* RESPONSIVE design section------------------------------------------------------*/
 
-/* -------------------------------------------- Navigtion bar responsive design */
+/* -------------------------------------------- Navigtion bar RESPONSIVE design */
 @media all and (max-width: 600px) {
-  .navbar {
+  .nav-container {
     display: flex;
-    /* flex-direction: column; */
     position: relative;
   }
 
   .fold-menu {
     display: block;
     position: absolute;
-    right: 15px;
-    top: 15px;
+    right: 25px;
+    top: 10px;
+    
   }
 
   .nav-list {
@@ -437,14 +455,20 @@ footer {
     text-align: center;
     padding-left: 0;
     display: none;
+    background-color: var(--first-colour);
   }
 
   .nav-list .nav-list-item {
     display: block;
-    padding: 5px 0;
+    padding: 5px 0 5px 0;
+    margin: 0;
     border-top: 1px solid white;
   }
 
+  .nav-list-item div {
+    text-align: center;
+  }
+    
   .active {
     display: block;
   }
@@ -453,12 +477,13 @@ footer {
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    margin: 10px;
-    z-index: 1;
+    margin: 20px;
+    margin-top: 20px;
+    z-index: 2;
   }
 }
 
-/* -------------------------------------------- Home page REVIEWS pane responsive design */
+/* -------------------------------------------- Home page REVIEWS pane RESPONSIVE design */
 @media all and (max-width: 600px) {
   .review-pane {
     display: flex;
@@ -466,15 +491,31 @@ footer {
   }
 }
 
-/* -------------------------------------------- Footer bar responsive design */
-@media all and (max-width: 600px) {
+/* -------------------------------------------- Products page RESPONSIVE design */
+@media all and (max-width: 800px) {
+.display-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+}
 
+
+@media all and (max-width: 700px) {
+  .display-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  }
+
+/* -------------------------------------------- Footer bar RESPONSIVE design */
+@media all and (max-width: 600px) {
   .footer-item-1 a {
     padding: 5px;
     /* display: none; */
   }
 
-  .footer-wrapper {
+  .footer-container {
+
     justify-content: space-between;
   }
 
@@ -487,13 +528,13 @@ footer {
   }
 }
 
-/* -------------------------------------------- Pages content responsive arrangement */
+/* -------------------------------------------- Pages content RESPONSIVE arrangement */
 /* -------------------------------------------- Products-FAQ-Contact */
 
 @media all and (max-width: 600px) {
   .page-intro {
     max-width: 600px;
-    padding-top: 20px;
+    padding-top: 30px;
     margin: 0 auto;
     overflow: hidden;
   }
