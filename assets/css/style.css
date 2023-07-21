@@ -68,9 +68,6 @@ footer {
   bottom: 0;
 }
 
-button {
-  /* font-family: 'Times New Roman', serif; */
-}
 
 main {
   max-width: 1200px;
@@ -112,6 +109,11 @@ label {
   color: #ff668e;
 }
 
+.current-page {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 .logo {
   z-index: 1;
 }
@@ -132,6 +134,10 @@ label {
 
 .fold-menu {
   display: none;
+}
+
+.nav-list-item span {
+  display: block;
 }
 
 /* -------------------------------------------- Home page HERO design */
@@ -440,6 +446,7 @@ textarea {
   .nav-container {
     display: flex;
     position: relative;
+    font-size: 1.2rem;
   }
 
   .fold-menu {
