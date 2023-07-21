@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>VikBerry Cakes | FAQ</title>
-        <meta content="">
-        <meta>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato:wght@300;400&family=Roboto&family=Cabin&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VikBerry Cakes | FAQ</title>
+    <meta name="description"
+        content=" Discover the world of London's delightful homemade cakes created with passion, creativity and love; find out our entire cake range, and sign up for our newsletter to receive news about our family business VikBerry Cakes and its latest cake offers.">
+    <meta name="keywords"
+        content="London homemade cakes,
+        Custom cakes London,Bespoke cakes London, Artisan cakes London,Birthday cakes London,Wedding cakes London,Celebration cakes London,Cupcakes London,Vegan cakes London,Gluten-free cakes London">
+    <meta name="author" content="Aleksandr Atr">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato:wght@300;400&family=Roboto&family=Cabin&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
 <body>
     <header>
         <!-- Header navigation bar -->
         <nav class="nav-container">
             <!-- Brand logo -->
-            <a href="index.html" class="logo">
-                <img class="" src="assets/images/logo/logo.png" alt="Brand logo">
+            <a href="index.html" class="logo" title="VikBerry Cakes" aria-label="Brand logo - Go to homepage">
+                <img class="" src="assets/images/logo/logo.png" title="VikBerry Cakes" alt="VikBerry Logo">
             </a>
             <!-- Navigation links with wraped divs for full width clickable area-->
             <ul class="nav-list" id="navigation-list">
-                <li class="nav-list-item"> <a href="index.html">
-                        <div>Home</div>
+                <li class="nav-list-item"> <a href="index.html" title="Home Page">
+                        <span>Home</span>
                     </a></li>
-                <li class="nav-list-item"> <a href="products.html">
-                        <div>Products</div>
+                <li class="nav-list-item"> <a href="products.html" title="Products Page">
+                        <span>Products</span>
                     </a></li>
-                <li class="nav-list-item"> <a href="faq.html">
-                        <div>FAQ</div>
+                <li class="nav-list-item"> <a href="faq.html" title="FAQ Page">
+                        <span class="current-page">FAQ</span>
                     </a></li>
-                <li class="nav-list-item"> <a href="contact.html">
-                        <div>Contact</div>
+                <li class="nav-list-item"> <a href="contact.html" title="Contact Page">
+                        <span>Contact</span>
                     </a></li>
             </ul>
             <!-- Navigation links "Burger" icon -->
-            <div class="fold-menu" id="toggle-button">
+            <div class="fold-menu" id="toggle-button" role="button" aria-haspopup="true"
+                aria-label="Toggle Navigation Menu">
                 <div class="menu-icon"></div>
                 <div class="menu-icon"></div>
                 <div class="menu-icon"></div>
@@ -99,7 +104,7 @@
                     wrap or place it in an airtight container before freezing.</p>
             </div>
             <div class="faq-item">
-                <h3>What  is your cancellation or refund policy?</h3>
+                <h3>What is your cancellation or refund policy?</h3>
                 <p>We understand that plans can change. Please notify us as soon as possible if you need to cancel your
                     order. Refunds may be provided depending on the circumstances and timing of the cancellation.</p>
             </div>
@@ -108,30 +113,32 @@
     <footer>
         <!-- link to contact page for newsletter subscription -->
         <div class="footer-container">
-            <div class="footer-item-1" role="">
-                <a href="contact.html" class="sign-up">Sign Up</a>
+            <div class="footer-item-1">
+                <a href="contact.html" class="sign-up" aria-label="Sign-Up">Sign Up</a>
             </div>
             <!-- Social media links -->
-            <div class="footer-item-2" role="">
+            <div class="footer-item-2">
                 <ul class="social">
-                    <li><a href="https://facebook.com"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
-                    <li><a href="https://instagram.com"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
-                    <li><a href=" https://wa.me/447727170137"><i class="fa-brands fa-whatsapp fa-lg"></i></a></li>
+                    <li><a href="https://facebook.com" target="_blank" aria-label="Link to our Facebook page"><i
+                                class="fa-brands fa-facebook fa-lg"></i></a></li>
+                    <li><a href="https://instagram.com" target="_blank" aria-label="Link to our Instagram page"><i
+                                class="fa-brands fa-instagram fa-lg"></i></a></li>
+                    <li><a href=" https://wa.me/447727170137" target="_blank" aria-label="WhatsApp contact"><i
+                                class="fa-brands fa-whatsapp fa-lg"></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
-        <!-- adding Javascript functionality for 'Burger' menu-->
-        <script>
-            const toggleButton = document.getElementById('toggle-button')
-            const navigationList = document.getElementById('navigation-list')
-            toggleButton.addEventListener('click', () => {
-                navigationList.classList.toggle('active');
-            })
-        </script>
-        <!-- Font Awesome  -->
-        <script src="https://kit.fontawesome.com/9c0d1f1ea6.js" crossorigin="anonymous"></script>
+    <!-- adding Javascript functionality for 'Burger' menu-->
+    <script>
+        const toggleButton = document.getElementById('toggle-button')
+        const navigationList = document.getElementById('navigation-list')
+        toggleButton.addEventListener('click', () => {
+            navigationList.classList.toggle('active');
+        })
+    </script>
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/9c0d1f1ea6.js" crossorigin="anonymous"></script>
 </body>
-
 
 </html>
