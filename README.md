@@ -134,7 +134,7 @@ Navigation bar links features:
 - The current page link is underlined to inform the user of the location.
 - The navigation bar transforms to the "hamburger" menu symbol on the smaller screen displays to reduce the header's size, leaving space for the main content.
 
-Desktop view - ![](assets/images/readme/home-desktop-navbar.PNG)
+Desktop view - <br> ![](assets/images/readme/home-desktop-navbar.PNG)
 
 Mobile device collapsed view - <br>
 ![](assets/images/readme/home-mobile-navbar.PNG)
@@ -149,7 +149,6 @@ The footer consists of the following:
 - Sign Up button.
 - Links to business Facebook and Instagram accounts.
 - WhatsApp business contact symbol-button.
-
 
 The footer features:
 - Sign up button takes users to the contact page, where they can signup for the business newsletter, which will include information about new products, current offers, and ideas for celebrating occasions.
@@ -240,11 +239,11 @@ Mobile device view - <br>
 The Contact page allows users to sign up for newsletters and send inquiries to VikBerry Cakes.
 
 The Contact page consists of the following:
-- Navigation bar
+- [Navigation bar](#Navigation-bar)
 - Newsletter subscription
 - Contact Us information
 - Contact form
-- Footer
+- [Footer](#Footer)
 
 Newsletter subscription features:
 - It provides users to subscribe to the business's newsletters
@@ -272,3 +271,116 @@ Desktop view - <br> ![](assets/images/readme/contacts-desktop-form.PNG)
 
 Mobile device view - <br>
 ![](assets/images/readme/contacts-mobile-form.PNG)
+
+---
+## **Testing Phase**
+Manual testing is to be undertaken to check the functionality of the designed website. The test covers the following areas - 
+- Responsiveness
+- Browser compatibility
+- Lighthouse
+- Code Validation
+- User Stories
+- Features
+
+### **Responsiveness**
+The website has been designed and built to be responsive to cater to various screen-size devices. The test procedures are as follows:
+1. Open project in DevTools
+1. Check responsiveness for three screen sizes:
+    * Desktop (1300px wide screen)
+    * Tablet (912px wide screen)
+    * Mobile device (320px wide screen)
+1. For each screen size, undertake the following checks:
+    *   Check text is clearly displayed
+    *   Check images layout
+    *   Check if the rendering is as per the design
+    *   Report the results
+
+#### **Responsivness test resutls**
+Tests were undertaken in the Edge browser (Microsoft) using in-built developer tools. The date of the test is 23/07/2023.
+
+![](assets/images/readme/responsive-test-result.PNG)
+
+Desktop (1300px wide screen) <br>
+![](assets/images/readme/responsive-1300px.PNG)
+
+
+Tablet (912px wide screen) <br>
+![](assets/images/readme/responsive-912px.PNG)
+
+
+Mobile device (320px wide screen) <br>
+![](assets/images/readme/responsive-320px.PNG)
+
+#### **Browser compatibility test resutls**
+The website has been tried on various browsers to check its functionality. The following browsers have been used:
+- Safari.
+- Chrome.
+- Edge.
+
+The test procedures are as follows:
+- Open the webpage in the chosen browser.
+- Check all links on the webpage.
+- Check the appearance of the page
+- Subscribe to the newsletter.
+- Submit form.
+
+The date of the test is 23/07/2023. The results are as follows:
+![](assets/images/readme/web-browser-test.PNG)
+
+#### **Bugs section**
+-=-=-=-=-=-=-=-=-=-=-=
+
+#### **Lighhouse test**
+Lighthouse is an automated tool for improving web page quality, including performance, accessibility, and SEO audits. It's a feature that is built into the DevOps tool. Each website page is tested using the lighthouse tool. 
+
+The test procedures are as follows:
+- Open a webpage in a Chrome browser.
+- In the developer tool, select Lighthouse.
+- Select the following categories:
+    - Performance
+    - Progressive Web App
+    - Best Practices
+    - Accessibility
+    - SEO
+- Run tests for devices:
+    - Mobile
+    - Desktop
+
+The date of the test is 23/07/2023. The results are as follows: 
+![](assets/images/readme/lighthouse-test.PNG)
+
+#### **HTML validator test**
+The website has been checked in W3C HTML Validator. It is a free online tool to verify HTML document syntax and compliance with W3C specifications and standards. 
+
+The test procedures are as follows:
+- Open W3C HTML Validator.
+- Load required HTML file.
+- Undertake check.
+- Repeat for all pages.
+- Report the results.
+
+The date of the test is 23/07/2023. The results are as follows:
+![](assets/images/readme/html-home-products.PNG)
+![](assets/images/readme/html-faq-contact.PNG)
+
+
+#### **CSS validator test**
+The website has been checked using CSS validation service, which verifies web developers' CSS code against W3C specifications, ensuring consistent and correct application across different browsers and devices and ensuring valid syntax and standards.
+
+The test procedures are as follows:
+- Open jigsaw CSS Validator.
+- Load the required CSS file.
+- Undertake check.
+- Report the results
+
+The date of the test is 23/07/2023. The results are as follows:
+![](assets/images/readme/css-validator.PNG)
+
+#### **Features test**
+All the features were tested as part of the responsive and web browser compatibility tests - no issues to report.
+
+
+#### **Deployment**
+#### **Technology**
+#### **Credits**
+
