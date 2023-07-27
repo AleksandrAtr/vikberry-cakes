@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VikBerry Cakes | Contact</title>
+    <meta name="description"
+        content=" Discover the world of London's delightful homemade cakes created with passion, creativity and love; find out our entire cake range, and sign up for our newsletter to receive news about our family business VikBerry Cakes and its latest cake offers.">
+    <meta name="keywords"
+        content="London homemade cakes,
+        Custom cakes London,Bespoke cakes London, Artisan cakes London,Birthday cakes London,Wedding cakes London,Celebration cakes London,Cupcakes London,Vegan cakes London,Gluten-free cakes London">
+    <meta name="author" content="Aleksandr Atr">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato:wght@300;400&family=Roboto&family=Cabin&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Header navigation bar -->
+        <nav class="nav-container">
+            <!-- Brand logo -->
+            <a href="index.html" class="logo" title="VikBerry Cakes" aria-label="Brand logo - Go to homepage">
+                <img class="" src="assets/images/logo/logo.png" title="VikBerry Cakes" alt="VikBerry Logo">
+            </a>
+            <!-- Navigation links with wraped divs for full width clickable area-->
+            <ul class="nav-list" id="navigation-list">
+                <li class="nav-list-item"> <a href="index.html" title="Home Page">
+                        <span>Home</span>
+                    </a></li>
+                <li class="nav-list-item"> <a href="products.html" title="Products Page">
+                        <span>Products</span>
+                    </a></li>
+                <li class="nav-list-item"> <a href="faq.html" title="FAQ Page">
+                        <span>FAQ</span>
+                    </a></li>
+                <li class="nav-list-item"> <a href="contact.html" title="Contact Page">
+                        <span class="current-page">Contact</span>
+                    </a></li>
+            </ul>
+            <!-- Navigation links "Burger" icon -->
+            <div class="fold-menu" id="toggle-button" role="button" aria-haspopup="true"
+                aria-label="Toggle Navigation Menu">
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+            </div>
+        </nav>
+    </header>
+    <main class="page-intro">
+        <div class="newsletter">
+            <h1>Newsletter</h1>
+            <form aria-label="Subscribe to newsletter">
+                <input aria-label="Enter you email address" class="email-form" type="email" name="email address" placeholder="Enter you email address"
+                    required aria-required="true">
+                <input class="contact-button" type="submit" value="Subscribe">
+            </form>
+            <span>Thank you for subscribing to the Newsletters</span>
+        </div>
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <p>To place an order for a personalized celebration cake, your ideal wedding cake, schedule a consultation,
+                or if you have any general questions, get in touch.
+                <br>
+                <br>
+                You can reach us by phone at <a href="tel:02074763548" title="tel:02074763548">02074763548</a> or email
+                using the form below. If you
+                haven't received a response, please check your spam folder.
+            </p>
+            <form class="form-control" action="contact-form-response.html" method="GET" aria-label="Contact Us">
+                <label for="name" class="form-label">First Name:</label>
+                <input type="text" name="FirstName" id="name" class="form-label">
+
+                <label for="email">Email*:</label>
+                <input type="email" name="Email" id="email" required aria-required="true" autocomplete="email"
+                    autocapitalize="off" autocorrect="off">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="Phone" id="phone">
+
+                <label for="message">Message:</label>
+                <textarea class="form-message" id="message" name="Message" data-limiting="false" rows=""></textarea>
+                <br>
+                <input class="contact-button" type="submit" value="submit">
+            </form>
+        </div>
+    </main>
+    <!-- Footer bar -->
+    <footer>
+        <!-- link to contact page for newsletter subscription -->
+        <div class="footer-container">
+            <div class="footer-item-1">
+                <a href="contact.html" class="sign-up" aria-label="Sign-Up">Sign Up</a>
+            </div>
+            <!-- Social media links -->
+            <div class="footer-item-2">
+                <ul class="social">
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Link to our Facebook page"><i
+                                class="fa-brands fa-facebook fa-lg"></i></a></li>
+                    <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Link to our Instagram page"><i
+                                class="fa-brands fa-instagram fa-lg"></i></a></li>
+                    <li><a href=" https://wa.me/447727170137" target="_blank" rel="noopener" aria-label="WhatsApp contact"><i
+                                class="fa-brands fa-whatsapp fa-lg"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>>
+    <!-- adding Javascript functionality for 'Burger' menu-->
+    <script>
+        const toggleButton = document.getElementById('toggle-button')
+        const navigationList = document.getElementById('navigation-list')
+        toggleButton.addEventListener('click', () => {
+            navigationList.classList.toggle('active');
+        })
+    </script>
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/9c0d1f1ea6.js" crossorigin="anonymous"></script>
+</body>
+</html>
