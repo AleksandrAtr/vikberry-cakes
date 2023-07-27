@@ -54,8 +54,8 @@
     <main class="page-intro">
         <div class="newsletter">
             <h1>Newsletter</h1>
-            <form aria-label="Subscribe to newsletter">
-                <input class="email-form" type="email" name="email address" placeholder="Enter you email address"
+            <form aria-label="Subscribe to newsletter" action="contact-newsletter-response.html" method="get">
+                <input aria-label="Enter you email address" class="email-form" type="email" name="email address" placeholder="Enter you email address"
                     required aria-required="true">
                 <input class="contact-button" type="submit" value="Subscribe">
             </form>
@@ -66,23 +66,23 @@
                 or if you have any general questions, get in touch.
                 <br>
                 <br>
-                You can reach us by phone at <a href="tel:02074763548" title="tel:02074763548">02074763548</a> or email
+                You can reach us by phone at <a href="tel:02074763548" title="tel:02074763548"><u>02074763548</u></a> or email
                 using the form below. If you
                 haven't received a response, please check your spam folder.
             </p>
-            <form class="form-control" action="" method="get" aria-label="Contact Us">
+            <form class="form-control" action="contact-form-response.html" method="GET" aria-label="Contact Us">
                 <label for="name" class="form-label">First Name:</label>
                 <input type="text" name="FirstName" id="name" class="form-label">
 
                 <label for="email">Email*:</label>
                 <input type="email" name="Email" id="email" required aria-required="true" autocomplete="email"
-                    autocapitalize="off" autocorrect="off">
+                    autocapitalize="off">
 
                 <label for="phone">Phone Number:</label>
                 <input type="tel" name="Phone" id="phone">
 
                 <label for="message">Message:</label>
-                <textarea class="form-message" id="message" name="Message" data-limiting="false" rows=""></textarea>
+                <textarea class="form-message" id="message" name="Message"></textarea>
                 <br>
                 <input class="contact-button" type="submit" value="submit">
             </form>
@@ -98,16 +98,16 @@
             <!-- Social media links -->
             <div class="footer-item-2">
                 <ul class="social">
-                    <li><a href="https://facebook.com" target="_blank" aria-label="Link to our Facebook page"><i
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Link to our Facebook page"><i
                                 class="fa-brands fa-facebook fa-lg"></i></a></li>
-                    <li><a href="https://instagram.com" target="_blank" aria-label="Link to our Instagram page"><i
+                    <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Link to our Instagram page"><i
                                 class="fa-brands fa-instagram fa-lg"></i></a></li>
-                    <li><a href=" https://wa.me/447727170137" target="_blank" aria-label="WhatsApp contact"><i
+                    <li><a href=" https://wa.me/447727170137" target="_blank" rel="noopener" aria-label="WhatsApp contact"><i
                                 class="fa-brands fa-whatsapp fa-lg"></i></a></li>
                 </ul>
             </div>
         </div>
-    </footer>
+    </footer>>
     <!-- adding Javascript functionality for 'Burger' menu-->
     <script>
         const toggleButton = document.getElementById('toggle-button')
