@@ -11,7 +11,7 @@
 * [Project overview](#Project-Overview)
 * [Table of contents](#table-of-contents)
 * [Planning stage](#planning-stage)
-* [Webiste colour pallete](#typography)
+* [Website colour palette](#typography)
 * [Main features](#Main-Features)
 * [Navigation Bar](#Navigation-Bar)
 * [Footer](#Footer)
@@ -91,7 +91,7 @@ Several constraints have been identified during the client discussion of the use
 - Ability to rate products and provide feedback
 - Blog page with inspirational cakes suggestions
 
-### **Webiste colour pallete**
+### **Website colour palette**
 
 The colour scheme inspiration comes from researching famous desert brands such as Baskin and Robins, Friers, and Lindt. 
 
@@ -295,7 +295,7 @@ The website has been designed and built to be responsive to cater to various scr
     *   Check if the rendering is as per the design
     *   Report the results
 
-#### **Responsivness test resutls**
+#### **Responsiveness test results**
 Tests were undertaken in the Edge browser (Microsoft) using in-built developer tools. The date of the test is 23/07/2023.
 
 ![](assets/images/readme/responsive-test-result.PNG)
@@ -311,7 +311,7 @@ Tablet (912px wide screen) <br>
 Mobile device (320px wide screen) <br>
 ![](assets/images/readme/responsive-320px.PNG)
 
-#### **Browser compatibility test resutls**
+#### **Browser compatibility test results**
 The website has been tried on various browsers to check its functionality. The following browsers have been used:
 - Safari.
 - Chrome.
@@ -330,7 +330,7 @@ The date of the test is 23/07/2023. The results are as follows:
 #### **Bugs section**
 -=-=-=-=-=-=-=-=-=-=-=
 
-#### **Lighhouse test**
+#### **Lighthouse test**
 Lighthouse is an automated tool for improving web page quality, including performance, accessibility, and SEO audits. It's a feature that is built into the DevOps tool. Each website page is tested using the lighthouse tool. 
 
 The test procedures are as follows:
@@ -379,8 +379,14 @@ The date of the test is 23/07/2023. The results are as follows:
 #### **Features test**
 All the features were tested as part of the responsive and web browser compatibility tests - no issues to report.
 
+#### **User stories test**
+The website has been checked against business and user stories. The results are as follows:
+![](assets/images/readme/user-stories-business-test.PNG)
+![](assets/images/readme/user-stories-test.PNG)
 
 #### **Deployment**
+
 #### **Technology**
+
 #### **Credits**
 
