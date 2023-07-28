@@ -328,7 +328,27 @@ The date of the test is 23/07/2023. The results are as follows:
 ![](assets/images/readme/web-browser-test.PNG)
 
 #### **Bugs section**
--=-=-=-=-=-=-=-=-=-=-=
+During the website development, there were numerous bugs found and fixed. These were:
+- Missing closing tabs were fixed by adding the element's closing tag.
+- Incorrect class names in HTML and CSS files were fixed by copying/pasting the names to the required places.
+- Accidentally deleted semicolons in CSS property values were fixed by adding them back.
+- Incorrect attribute tags and values were fixed by correcting them.
+- Improperly nested elements were fixed by ensuring the correct nesting of elements.
+- The footer height was too big for a mobile landscape view. <br>
+![](assets/images/readme/bug-footer-height.png)
+The fix was to redesign the footer to reduce its size.
+photo.<br>
+![](assets/images/readme/bug-footer-height-fixed.png)
+- The footer social media icons had an unexpected list view and wrong location. (it should have been to the right of the viewport, not in the middle) <br>
+![](assets/images/readme/bug-footer-list.png)
+- To fix the unordered list view, the icon's unordered list display mode has been changed to flex.
+- To fix the location, the footer container display has been set to flex, and the footer items spacings are done using flex property justify-content: space-between; <br>
+![](assets/images/readme/bug-footer-list-fixed.png)
+
+The form text input window was too small, making inputting text difficult for users. <br>
+![](assets/images/readme/bug-form.jpg)
+It was fixed by by setting the textarea minimum height. <br>
+![](assets/images/readme/bug-form-fixed.png)
 
 #### **Lighthouse test**
 Lighthouse is an automated tool for improving web page quality, including performance, accessibility, and SEO audits. It's a feature that is built into the DevOps tool. Each website page is tested using the lighthouse tool. 
@@ -401,4 +421,5 @@ The website has been built using the following tech:
 - Fontawesome
 
 #### **Credits**
+
 
