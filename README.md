@@ -385,6 +385,13 @@ The website has been checked against business and user stories. The results are 
 ![](assets/images/readme/user-stories-test.PNG)
 
 #### **Deployment**
+The website is deployed on GitHub following the below steps:
+- Go to my GitHub repository's "Settings" tab.
+- Scroll down to the "GitHub Pages" section.
+- Under "Source," choose the branch (e.g., "main") from which to deploy my website.
+- Click "Save" to enable GitHub Pages for my repository.
+
+GitHub Pages will now build and deploy the website. Once the process is complete, a link to the live website will be in my repository settings' "GitHub Pages" section.
 
 #### **Technology**
 
