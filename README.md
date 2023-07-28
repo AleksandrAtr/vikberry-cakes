@@ -394,6 +394,11 @@ The website is deployed on GitHub following the below steps:
 GitHub Pages will now build and deploy the website. Once the process is complete, a link to the live website will be in my repository settings' "GitHub Pages" section.
 
 #### **Technology**
+The website has been built using the following tech:
+- HTML5
+- CSS3
+- Google Fonts
+- Fontawesome
 
 #### **Credits**
 
