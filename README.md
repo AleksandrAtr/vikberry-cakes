@@ -2,16 +2,16 @@
 
 [VikBerry Cakes](https://aleksandratr.github.io/vikberry-cakes/index.html) is a website that is designed for a homemade cake business. The website provides information about the business, its products, and means of contact.
 
-![site on different devices](assets/images/readme/device-previews.PNG)
+![site on different devices](assets/images/readme/device-previews.png)
 
 ---
 
 ## **Table of contents**
-
 * [Project overview](#Project-Overview)
 * [Table of contents](#table-of-contents)
-* [Planning stage](#planning-stage)
-* [Website colour palette](#typography)
+* [Project Planning](#Project-Planning)
+* [Website colour palette](#Website-colour-palette)
+* [Typography](#Typography)
 * [Main features](#Main-Features)
 * [Navigation Bar](#Navigation-Bar)
 * [Footer](#Footer)
@@ -19,14 +19,12 @@
 * [Products Page](#Products-Page)
 * [FAQ Page](#FAQ-Page)
 * [Contact Page](#Contact-Page)
----
-* [Bugs](#bugs)
+* [Bugs Section](#Bugs-section)
 * [Deployment](#deployment)
-* [Tech](#tech)
+* [Technology](#technology)
 * [Credits](#credits)
 
 ---
-
 ## **Project Planning**
 
 ### **Target Audiences**
@@ -56,7 +54,6 @@ As the business owner of VikBerry Cakes, I want to showcase my cake-making skill
 - Monitor website traffic and gather insights about customer preferences and popular cake designs.
 
 ### **Business owner content requirements**
-
 - Business logo
 - Information about business operations
 - Business contact details
@@ -75,7 +72,6 @@ As a user visiting the VikBerry Cakes website, I want to explore the available c
 - Share my feedback and rate the cakes or overall experience through a customer review system.
 
 ### **Requirements revision**
-
 Several constraints have been identified during the client discussion of the user stories requirements. It was mainly based on the client's limited product content availability and budget. Some of the features were left out and suggested for future development. 
 
 ### **The client agreed minimally viable product**
@@ -84,26 +80,43 @@ Several constraints have been identified during the client discussion of the use
 - FAQ
 - Contact
 
-### **Suggested future improvements**
+Additional pages were added to provide feedback to the user. These pages are:
+- Newsletter response page
+- Form response page
+- 404 Page Cannot Be Found error message page
 
+
+### **Suggested future improvements**
 - Create and manage different categories of cakes, such as birthday cakes, wedding cakes, and custom cakes.
 - Ability to make orders online
 - Ability to rate products and provide feedback
 - Blog page with inspirational cakes suggestions
 
-### **Website colour palette**
+### **Wireframes**
+High level website design- <br>
+![](assets/images/readme/wire-pages.png)
+Home page - <br>
+![](assets/images/readme/wire-home-desk.png)
+Home page mobile latest design - <br>
+![](assets/images/readme//wire-home-mobile.png)
+Product page - <br>
+![](assets/images/readme/wire-products.png)
+Contact page - <br>
+![](assets/images/readme/wire-contact.png)
 
+
+### **Website colour palette**
 The colour scheme inspiration comes from researching famous desert brands such as Baskin and Robins, Friers, and Lindt. 
 
-![site on different devices](assets/images/readme/colour-pallete.PNG)
+![site on different devices](assets/images/readme/colour-pallete.png)
 
 ### **Typography**
-
 For the website design, several fonts are used:
 All Headings are set to "Playfair Display" Google font, a part of the serif family that uses strokes at the edges of the letters creating a sense of elegance and formality.
 All links and buttons are set to "Roboto", part of the sons-serif family. The font was chosen following research on the most readable font family for buttons and labels.
 All paragraph text uses Lato Google font, a part of the sans-serif family that provides a clean, modern look.
 
+---
 ## **Main Features**
 The website has four pages - Home, Products, FAQ, and Contact. The layout of the pages is consistent throughout and includes:
 - A navigation bar.
@@ -134,13 +147,13 @@ Navigation bar links features:
 - The current page link is underlined to inform the user of the location.
 - The navigation bar transforms to the "hamburger" menu symbol on the smaller screen displays to reduce the header's size, leaving space for the main content.
 
-Desktop view - <br> ![](assets/images/readme/home-desktop-navbar.PNG)
+Desktop view - <br> ![](assets/images/readme/home-desktop-navbar.png)
 
 Mobile device collapsed view - <br>
-![](assets/images/readme/home-mobile-navbar.PNG)
+![](assets/images/readme/home-mobile-navbar.png)
 
 Mobile device expanded view - <br>
-![](assets/images/readme/home-mobile-open-navbar.PNG)
+![](assets/images/readme/home-mobile-open-navbar.png)
 
 ### **Footer**
 The footer's position is fixed at the bottom of the screen regardless of scrolling. It's built to encourage users to signup for the newsletter, follow social media and provide easy business contact through the WhatsApp messaging platform.
@@ -155,9 +168,9 @@ The footer features:
 - Social media links allow users to follow the business page and see business activity, posts, comments and reviews, ensuring trust and giving a personal touch.
 - WhatsApp link provides users an easy way to get in touch with the business.
 
-Desktop view - <br> ![](assets/images/readme/home-desktop-footer.PNG)
+Desktop view - <br> ![](assets/images/readme/home-desktop-footer.png)
 Mobile device view - <br>
-![](assets/images/readme/home-mobile-footer.PNG)
+![](assets/images/readme/home-mobile-footer.png)
 
 ---
 ### **Home page**
@@ -172,22 +185,21 @@ Hero image features:
 - Invites users to see the products.
 - Provides a link to the Products page.
 
-Desktop view - <br> ![](assets/images/readme/home-desktop-hero.PNG)
+Desktop view - <br> ![](assets/images/readme/home-desktop-hero.png)
 Mobile device view - <br>
-![](assets/images/readme/home-mobile-hero.PNG)
+![](assets/images/readme/home-mobile-hero.png)
 
 Customers review features:
 - Provides users with an overview of recent customer reviews.
 - Creates a feeling of trust and forms a positive expectation for the business.
 
 
-Desktop view - <br> ![](assets/images/readme/home-desktop-reviews.PNG)
+Desktop view - <br> ![](assets/images/readme/home-desktop-reviews.png)
 Mobile device view - <br>
-![](assets/images/readme/home-mobile-reviews.PNG)
+![](assets/images/readme/home-mobile-reviews.png)
 
 ---
 ### **Products page**
-
 The products page provides information about the business offers and displays individual products.
 
 The Products page consists of the following:
@@ -200,10 +212,10 @@ Introduction text features:
 - It tells users what VikBerry Cakes has to offer.
 - Provides a link to the Frequently Asked Questions (FAQ) page.
 
-Desktop view - <br> ![](assets/images/readme/products-desktop-intro.PNG)
+Desktop view - <br> ![](assets/images/readme/products-desktop-intro.png)
 
 Mobile device view - <br>
-![](assets/images/readme/products-mobile-intro.PNG)
+![](assets/images/readme/products-mobile-intro.png)
 
 Products display features:
 - Provides users with an overview of products for offer.
@@ -211,14 +223,13 @@ Products display features:
 - It gives users the ability to choose from a range of products.
 - The range of products provides ideas for custom cakes.
 
-Desktop view - <br> ![](assets/images/readme/products-desktop-products.PNG)
+Desktop view - <br> ![](assets/images/readme/products-desktop-products.png)
 
 Mobile device view - <br>
-![](assets/images/readme/products-mobile-products.PNG)
+![](assets/images/readme/products-mobile-products.png)
 
 ---
 ### **FAQ page**
-
 The Frequently Asked Questions (FAQ) page provides users with information about orders, products etc.
 
 The FAQ page consists of the following:
@@ -229,10 +240,10 @@ The FAQ page consists of the following:
 FAQ section features:
 - Questions and answers give users basic information on the order processes, product information, and other helpful information.
 
-Desktop view - <br> ![](assets/images/readme/faq-desktop-faq.PNG)
+Desktop view - <br> ![](assets/images/readme/faq-desktop-faq.png)
 
 Mobile device view - <br>
-![](assets/images/readme/faq-mobile-faq.PNG)
+![](assets/images/readme/faq-mobile-faq.png)
 
 ---
 ### **Contact page**
@@ -248,29 +259,57 @@ The Contact page consists of the following:
 Newsletter subscription features:
 - It provides users to subscribe to the business's newsletters
 
-Desktop view - <br> ![](assets/images/readme/contacts-desktop-newsletter.PNG)
+Desktop view - <br> ![](assets/images/readme/contacts-desktop-newsletter.png)
 
 Mobile device view - <br>
-![](assets/images/readme/contacts-mobile-newsletter.PNG)
+![](assets/images/readme/contacts-mobile-newsletter.png)
 
 
 Contact Us information features:
 - It invites users to get in touch with VikBerry Cakes
 - Provides a link phone number as alternative form of contact.
 
-Desktop view - <br> ![](assets/images/readme/contacts-desktop-contactus.PNG)
+Desktop view - <br> ![](assets/images/readme/contacts-desktop-contactus.png)
 
 Mobile device view - <br>
-![](assets/images/readme/contacts-mobile-contactus.PNG)
-
+![](assets/images/readme/contacts-mobile-contactus.png)
 
 Contact form features
 - It allows users to contact the VikBerry Cakes team by sending a message.
 
-Desktop view - <br> ![](assets/images/readme/contacts-desktop-form.PNG)
+Desktop view - <br> ![](assets/images/readme/contacts-desktop-form.png)
 
 Mobile device view - <br>
-![](assets/images/readme/contacts-mobile-form.PNG)
+![](assets/images/readme/contacts-mobile-form.png)
+
+---
+
+### **Newsletter response page**
+The page is a copy of the contact page with feedback information that confirms the user subscribed to the newsletter.
+
+Desktop view - <br> 
+![](assets/images/readme/contact-desktop-newsletter-response.png)
+
+Mobile device view - <br>
+![](assets/images/readme/contact-mobile-newsletter-response.png)
+
+### **Form response page**
+The page is a copy of the contact page with feedback information that confirms the user submitted the form.
+
+Desktop view - <br> 
+![](assets/images/readme/contact-desktop-form-response.png)
+
+Mobile device view - <br>
+![](assets/images/readme/contact-mobile-form-response.png)
+
+### **404 error page**
+The page has the same layout as other pages with main element dedicated to the error message.
+
+Desktop view - <br> 
+![](assets/images/readme/404-desktop.PNG)
+
+Mobile device view - <br>
+![](assets/images/readme/404-mobile.PNG)
 
 ---
 ## **Testing Phase**
@@ -296,20 +335,24 @@ The website has been designed and built to be responsive to cater to various scr
     *   Report the results
 
 #### **Responsiveness test results**
-Tests were undertaken in the Edge browser (Microsoft) using in-built developer tools. The date of the test is 23/07/2023.
+Tests were undertaken in the Chrome browser (by Google) using in-built developer tools. The date of the test is 31/07/2023.
 
-![](assets/images/readme/responsive-test-result.PNG)
+![](assets/images/readme/responsive-test-result.png)
 
 Desktop (1300px wide screen) <br>
-![](assets/images/readme/responsive-1300px.PNG)
+![](assets/images/readme/responsive-home-1300.png)
+![](assets/images/readme/responsive-products-1300.png)
+![](assets/images/readme/responsive-faq-1300.png)
+![](assets/images/readme/responsive-contact-1300.png)
+![](assets/images/readme/responsive-contact-nwlt-1300.png)
+![](assets/images/readme/responsive-contact-form-1300.png)
+![](assets/images/readme/responsive-404-1300.png)
 
-
-Tablet (912px wide screen) <br>
-![](assets/images/readme/responsive-912px.PNG)
-
+Tablet (768px wide screen) <br>
+![](assets/images/readme/responsive-768px.png)
 
 Mobile device (320px wide screen) <br>
-![](assets/images/readme/responsive-320px.PNG)
+![](assets/images/readme/responsive-320px.png)
 
 #### **Browser compatibility test results**
 The website has been tried on various browsers to check its functionality. The following browsers have been used:
@@ -325,7 +368,7 @@ The test procedures are as follows:
 - Submit form.
 
 The date of the test is 23/07/2023. The results are as follows:
-![](assets/images/readme/web-browser-test.PNG)
+![](assets/images/readme/web-browser-test.png)
 
 #### **Bugs section**
 During the website development, there were numerous bugs found and fixed. These were:
@@ -366,8 +409,11 @@ The test procedures are as follows:
     - Mobile
     - Desktop
 
-The date of the test is 23/07/2023. The results are as follows: 
-![](assets/images/readme/lighthouse-test.PNG)
+The date of the test is 31/07/2023. The results are as follows: 
+![](assets/images/readme/lighthouse-home-products.png)
+![](assets/images/readme/lighthouse-faq-contact.PNG)
+![](assets/images/readme/lighthouse-contact-responses.png)
+![](assets/images/readme/lighthouse-404.PNG)
 
 #### **HTML validator test**
 The website has been checked in W3C HTML Validator. It is a free online tool to verify HTML document syntax and compliance with W3C specifications and standards. 
@@ -379,9 +425,11 @@ The test procedures are as follows:
 - Repeat for all pages.
 - Report the results.
 
-The date of the test is 23/07/2023. The results are as follows:
-![](assets/images/readme/html-home-products.PNG)
-![](assets/images/readme/html-faq-contact.PNG)
+The date of the test is 31/07/2023. The results are as follows:
+![](assets/images/readme/html-home-products.png)
+![](assets/images/readme/html-faq-contact.png)
+![](assets/images/readme/html-contact-responses.png)
+![](assets/images/readme/html-404.png)
 
 
 #### **CSS validator test**
@@ -393,18 +441,19 @@ The test procedures are as follows:
 - Undertake check.
 - Report the results
 
-The date of the test is 23/07/2023. The results are as follows:
-![](assets/images/readme/css-validator.PNG)
+The date of the test is 31/07/2023. The results are as follows:
+![](assets/images/readme/css-validator.png)
 
 #### **Features test**
 All the features were tested as part of the responsive and web browser compatibility tests - no issues to report.
 
 #### **User stories test**
 The website has been checked against business and user stories. The results are as follows:
-![](assets/images/readme/user-stories-business-test.PNG)
-![](assets/images/readme/user-stories-test.PNG)
+![](assets/images/readme/user-stories-business-test.png)
+![](assets/images/readme/user-stories-test.png)
 
-#### **Deployment**
+---
+## **Deployment**
 The website is deployed on GitHub following the below steps:
 - Go to my GitHub repository's "Settings" tab.
 - Scroll down to the "GitHub Pages" section.
@@ -413,7 +462,8 @@ The website is deployed on GitHub following the below steps:
 
 GitHub Pages will now build and deploy the website. Once the process is complete, a link to the live website will be in my repository settings' "GitHub Pages" section.
 
-#### **Technology**
+---
+## **Technology**
 The website has been built using the following tech:
 - HTML5
 - CSS3
@@ -431,9 +481,10 @@ The following tools have been used during the development:
 - Chrome, Safari, Edge browsers
 - Microsoft Snipping tool
 - TinyPNG website
+- Coolors website
 
-#### **Credits**
-
+---
+## **Credits**
 Website resources: <br>
 - Logo - logo has been created using the online Free Logo Design Center - https://www.freelogodesign.org/
 - Photos - photos were downloaded from Shutter Stock - https://www.shutterstock.com/
@@ -454,3 +505,7 @@ http://jsfiddle.net/a3nyexqg/
 
 
 The project has been developed using VS Code, Git and GitHub. A new GitHub account has been created for the Code Institute course, and all except one commit for the project have been done using the same Git account. However, on the 25th of June, I made a commit from my other GitHub account ALATR1 which was set on my personal computer, and I forgot to switch it to the new one. The committed file was just a blank project CSS file.
+
+Thank you to my mentor Aleksei Konovalov for sharing his knowledge and support throughout the project. 
+
+Thank you to my wife Margarita Komarova for her support and the feedback on the visual representation of the website.
