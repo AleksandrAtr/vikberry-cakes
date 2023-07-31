@@ -434,10 +434,23 @@ The following tools have been used during the development:
 
 #### **Credits**
 
-JS script information
-explain you made commits from another account 
-wireframe
+Website resources: <br>
+- Logo - logo has been created using the online Free Logo Design Center - https://www.freelogodesign.org/
+- Photos - photos were downloaded from Shutter Stock - https://www.shutterstock.com/
+- Icons- icons were downloaded from the Font Awesome website - 
+https://fontawesome.com/
+- Fonts - some fonts were downloaded from Google Fonts - 
+https://fonts.google.com/
+- JavaScript - Hamburger Navigation bar menu inspiration and code was taken from - https://www.youtube.com/watch?v=mh36Kts-wX8
+
+Website development: <br>
+During the project development, references were made to various online learning resources to get inspiration for the design and problems solving.  
+
+- The HTML and CSS basics learn from the Code Institute education portal - https://learn.codeinstitute.net/dashboard
+- Items alignment in elements - https://www.w3.org/Style/Examples/007/center.en.html
+http://jsfiddle.net/a3nyexqg/
+- Object alignments and background-size - https://www.smashingmagazine.com/2021/10/object-fit-background-size-css/
+- The inspiration and principle understanding of the problems encountered during development was taken from the StackOverflow website. One of the problems encountered during the development was using multiple git accounts from the same computer - https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer
 
 
-#### **Developer note**
 The project has been developed using VS Code, Git and GitHub. A new GitHub account has been created for the Code Institute course, and all except one commit for the project have been done using the same Git account. However, on the 25th of June, I made a commit from my other GitHub account ALATR1 which was set on my personal computer, and I forgot to switch it to the new one. The committed file was just a blank project CSS file.
