@@ -289,15 +289,9 @@ label {
 }
 
 .social a {
-
   color: var(--second-colour);
 }
 
-/* footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-} */
 
 .footer-item-1 a:hover {
   color: #ff668e
@@ -309,7 +303,7 @@ label {
 
 /* ------------------PRODUCTS----------------------*/
 
-.page-intro h1 {
+.page-intro h1,h2 {
   z-index: 2;
   text-align: center;
 }
@@ -449,13 +443,11 @@ textarea {
   padding: 20px 0;
 }
 
-.newsletter span{
+.page-intro span {
   font-size: 1.5rem;
   padding-bottom: 10px;
   display: block;
 }
-
-
 
 /* RESPONSIVE design section------------------------------------------------------*/
 
