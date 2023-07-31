@@ -55,8 +55,8 @@
         <h1>VikBerry Cakes</h1>
         <div class="newsletter">
             <h2>Newsletter</h2>
-            <form aria-label="Subscribe to newsletter">
-                <input aria-label="Enter you email address" type="email" name="email address" placeholder="Enter you email address"
+            <form aria-label="Subscribe to newsletter" action="contact-newsletter-response.html" method="get">
+                <input aria-label="Enter you email address" class="email-form" type="email" name="email address" placeholder="Enter you email address"
                     required aria-required="true">
                 <input class="contact-button" type="submit" value="Subscribe">
             </form>
@@ -68,7 +68,7 @@
                 or if you have any general questions, get in touch.
                 <br>
                 <br>
-                You can reach us by phone at <a href="tel:02074763548" title="tel:02074763548">02074763548</a> or email
+                You can reach us by phone at <a href="tel:02074763548" title="tel:02074763548"><u>02074763548</u></a> or email
                 using the form below. If you
                 haven't received a response, please check your spam folder.
             </p>
@@ -78,13 +78,13 @@
 
                 <label for="email">Email*:</label>
                 <input type="email" name="Email" id="email" required aria-required="true" autocomplete="email"
-                    autocapitalize="off" autocorrect="off">
+                    autocapitalize="off">
 
                 <label for="phone">Phone Number:</label>
                 <input type="tel" name="Phone" id="phone">
 
                 <label for="message">Message:</label>
-                <textarea class="form-message" id="message" name="Message" data-limiting="false" rows=""></textarea>
+                <textarea class="form-message" id="message" name="Message"></textarea>
                 <br>
                 <input class="contact-button" type="submit" value="submit">
             </form>
@@ -109,7 +109,7 @@
                 </ul>
             </div>
         </div>
-    </footer>>
+    </footer>
     <!-- adding Javascript functionality for 'Burger' menu-->
     <script>
         const toggleButton = document.getElementById('toggle-button')

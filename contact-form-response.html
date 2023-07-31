@@ -56,18 +56,29 @@
         <div class="newsletter">
             <h2>Newsletter</h2>
             <form aria-label="Subscribe to newsletter" action="contact-newsletter-response.html" method="get">
-                <input class="email-form" type="email" name="email address" placeholder="Enter you email address"
+                <input aria-label="Enter you email address" class="email-form" type="email" name="email address" placeholder="Enter you email address"
                     required aria-required="true">
                 <input class="contact-button" type="submit" value="Subscribe">
             </form>
         </div>
         <div class="contact">
-            <form class="form-control-response" action="" method="get" aria-label="Contact Us">
-
-                    <span>Thank you for contacting VikBerry Cakes. We will respond to your message as soon as possible but
-                        it may take up to 24 hours.</span>
-
-            </form>
+            <h2>Contact Us</h2>
+            <p>To place an order for a personalized celebration cake, your ideal wedding cake, schedule a consultation,
+                or if you have any general questions, get in touch.
+                <br>
+                <br>
+                You can reach us by phone at <a href="tel:02074763548" title="tel:02074763548"><u>02074763548</u></a> or email
+                using the form below. If you
+                haven't received a response, please check your spam folder.
+            </p>
+            <div class="contact">
+                <form class="form-control" action="contact-form-response.html" method="GET" aria-label="Contact Us">
+    
+                        <span>Thank you for contacting VikBerry Cakes. We will respond to your message as soon as possible but
+                            it may take up to 24 hours.</span>
+    
+                </form>
+            </div>
         </div>
     </main>
     <!-- Footer bar -->
@@ -89,7 +100,7 @@
                 </ul>
             </div>
         </div>
-    </footer>>
+    </footer>
     <!-- adding Javascript functionality for 'Burger' menu-->
     <script>
         const toggleButton = document.getElementById('toggle-button')
