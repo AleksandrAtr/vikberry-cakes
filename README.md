@@ -420,6 +420,24 @@ The website has been built using the following tech:
 - Google Fonts
 - Fontawesome
 
+The following tools have been used during the development:
+- VS Code
+- Git
+- GitHub
+- Code Institute Project Template
+- Microsoft Excel
+- Windows 10 Enterprise
+- MacOS 14
+- Chrome, Safari, Edge browsers
+- Microsoft Snipping tool
+- TinyPNG website
+
 #### **Credits**
 
+JS script information
+explain you made commits from another account 
+wireframe
 
+
+#### **Developer note**
+The project has been developed using VS Code, Git and GitHub. A new GitHub account has been created for the Code Institute course, and all except one commit for the project have been done using the same Git account. However, on the 25th of June, I made a commit from my other GitHub account ALATR1 which was set on my personal computer, and I forgot to switch it to the new one. The committed file was just a blank project CSS file.
