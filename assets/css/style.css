@@ -449,6 +449,13 @@ textarea {
   display: block;
 }
 
+/* ------------------404 error message page----------------------*/
+.error-message {
+  min-height: 100vw;
+  padding-top: 100px;
+  text-align: center;
+}
+
 /* RESPONSIVE design section------------------------------------------------------*/
 
 /* -------------------------------------------- Navigtion bar RESPONSIVE design */
