@@ -107,7 +107,6 @@ Contact page - <br>
 
 ### **Website colour palette**
 The colour scheme inspiration comes from researching famous desert brands such as Baskin and Robins, Friers, and Lindt. 
-
 ![site on different devices](assets/images/readme/colour-pallete.png)
 
 ### **Typography**
@@ -306,10 +305,10 @@ Mobile device view - <br>
 The page has the same layout as other pages with main element dedicated to the error message.
 
 Desktop view - <br> 
-![](assets/images/readme/404-desktop.PNG)
+![](assets/images/readme/404-desktop.png)
 
 Mobile device view - <br>
-![](assets/images/readme/404-mobile.PNG)
+![](assets/images/readme/404-mobile.png)
 
 ---
 ## **Testing Phase**
@@ -411,9 +410,9 @@ The test procedures are as follows:
 
 The date of the test is 31/07/2023. The results are as follows: 
 ![](assets/images/readme/lighthouse-home-products.png)
-![](assets/images/readme/lighthouse-faq-contact.PNG)
+![](assets/images/readme/lighthouse-faq-contact.png)
 ![](assets/images/readme/lighthouse-contact-responses.png)
-![](assets/images/readme/lighthouse-404.PNG)
+![](assets/images/readme/lighthouse-404.png)
 
 #### **HTML validator test**
 The website has been checked in W3C HTML Validator. It is a free online tool to verify HTML document syntax and compliance with W3C specifications and standards. 
