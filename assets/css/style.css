@@ -54,12 +54,11 @@ p {
 
 header {
   background-color: var(--first-colour);
-  /* width: 100%; */
 }
 
 body {
   background-color: var(--second-colour);
-  min-width: 200px;
+  min-width: 300px;
 }
 
 footer {
@@ -68,7 +67,6 @@ footer {
   position: fixed;
   bottom: 0;
 }
-
 
 main {
   max-width: 1200px;
@@ -80,7 +78,6 @@ label {
 }
 
 /* -------------------------------------------- NAVIGATION bar */
-
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -93,7 +90,6 @@ label {
 
 .nav-list {
   text-transform: uppercase;
-  margin-bottom: 0px;
 }
 
 .nav-list .nav-list-item {
@@ -193,9 +189,7 @@ label {
 }
 
 /* -------------------------------------------- Home page REVIEWS pane */
-
 .home-review {
-  /* display: block; */
   background-color: var(--second-colour);
   padding: 0 0 20px 0;
   overflow: hidden;
@@ -231,7 +225,6 @@ label {
 }
 
 /* -------------------------------------------- Products-FAQ-Contact */
-
 .page-intro {
   max-width: 600px;
   padding-top: 60px;
@@ -256,7 +249,7 @@ label {
 
 .footer-item-1 {
   text-align: center;
-  padding-left: 15px;
+  padding: 10px;
 }
 
 .footer-item-1 p {
@@ -276,7 +269,6 @@ label {
   letter-spacing: 0.2mm;
 }
 
-
 .footer-item-2 ul {
   display: flex;
   color: var(--second-colour);
@@ -292,7 +284,6 @@ label {
   color: var(--second-colour);
 }
 
-
 .footer-item-1 a:hover {
   color: #ff668e
 }
@@ -302,8 +293,7 @@ label {
 }
 
 /* ------------------PRODUCTS----------------------*/
-
-.page-intro h1,h2 {
+.page-intro h1, h2 {
   z-index: 2;
   text-align: center;
 }
@@ -323,8 +313,6 @@ label {
 
 .display-item {
   max-width: 300px;
-  /* overflow: hidden;
-  align-self: center; */
   justify-self: center;
   text-align: center;
 }
@@ -340,7 +328,6 @@ label {
 }
 
 /* ------------------FAQ----------------------*/
-
 .faq-intro {
   z-index: 2;
   text-align: center;
@@ -366,7 +353,7 @@ label {
   margin: 0 auto;
 }
 
-input, textarea{
+input, textarea {
   font-size: 16px;
   padding: 2px;
 }
@@ -386,6 +373,7 @@ input, textarea{
 .newsletter h1 {
   margin-bottom: 5px;
 }
+
 .contact {
   padding: 0 10px 60px 10px;
 }
@@ -458,12 +446,9 @@ textarea {
 }
 
 /* RESPONSIVE design section------------------------------------------------------*/
-
-/* -------------------------------------------- Navigtion bar RESPONSIVE design */
+/* --------------------------------------------- Navigation bar RESPONSIVE design */
 @media all and (max-width: 600px) {
   .nav-container {
-    display: flex;
-    position: relative;
     font-size: 1.2rem;
   }
 
@@ -477,7 +462,6 @@ textarea {
   .nav-list {
     width: 100%;
     text-align: center;
-    padding-left: 0;
     display: none;
     background-color: var(--first-colour);
   }
@@ -485,14 +469,9 @@ textarea {
   .nav-list .nav-list-item {
     display: block;
     padding: 5px 0 5px 0;
-    margin: 0;
     border-top: 1px solid white;
   }
 
-  .nav-list-item div {
-    text-align: center;
-  }
-    
   .active {
     display: block;
   }
@@ -510,51 +489,26 @@ textarea {
 /* -------------------------------------------- Home page REVIEWS pane RESPONSIVE design */
 @media all and (max-width: 600px) {
   .review-pane {
-    display: flex;
     flex-direction: column;
   }
 }
 
 /* -------------------------------------------- Products page RESPONSIVE design */
 @media all and (max-width: 800px) {
-.display-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5px;
+  .display-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
 }
-}
-
 
 @media all and (max-width: 700px) {
   .display-container {
     grid-template-columns: repeat(1, 1fr);
   }
-  }
-
-/* -------------------------------------------- Footer bar RESPONSIVE design */
-@media all and (max-width: 600px) {
-  .footer-item-1 a {
-    padding: 5px;
-    /* display: none; */
-  }
-
-  .footer-container {
-
-    justify-content: space-between;
-  }
-
-  .footer-item-2 {
-    text-align: right;
-  }
-
-  .footer-item-2 ul li {
-    padding: 5px 10px;
-  }
 }
 
 /* -------------------------------------------- Pages content RESPONSIVE arrangement */
-/* -------------------------------------------- Products-FAQ-Contact */
-
+/* -------------------------------------------- Products-FAQ-Contact pages*/
 @media all and (max-width: 600px) {
   .page-intro {
     max-width: 600px;
