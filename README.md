@@ -93,16 +93,25 @@ Additional pages were added to provide feedback to the user. These pages are:
 - Blog page with inspirational cakes suggestions
 
 ### **Wireframes**
-High level website design- <br>
+High level website design- 
+<br>
 ![](assets/images/readme/wire-pages.png)
-Home page - <br>
-![](assets/images/readme/wire-home-desk.png)
-Home page mobile latest design - <br>
+<br>
+Home page - 
+<br>
+![](assets/images/readme/wire-home-desk.png) 
+<br>
+Home page mobile latest design - 
+<br>
 ![](assets/images/readme//wire-home-mobile.png)
-Product page - <br>
+<br>
+Product page high level design - 
+<br>
 ![](assets/images/readme/wire-products.png)
-Contact page - <br>
+Contact page high level design - 
+<br>
 ![](assets/images/readme/wire-contact.png)
+<br>
 
 
 ### **Website colour palette**
@@ -376,20 +385,28 @@ During the website development, there were numerous bugs found and fixed. These 
 - Accidentally deleted semicolons in CSS property values were fixed by adding them back.
 - Incorrect attribute tags and values were fixed by correcting them.
 - Improperly nested elements were fixed by ensuring the correct nesting of elements.
-- The footer height was too big for a mobile landscape view. <br>
+- The footer height was too big for a mobile landscape view - 
+<br>
 ![](assets/images/readme/bug-footer-height.png)
-The fix was to redesign the footer to reduce its size.
-photo.<br>
+<br>
+The fix was to redesign the footer to reduce its size -
+<br>
 ![](assets/images/readme/bug-footer-height-fixed.png)
-- The footer social media icons had an unexpected list view and wrong location. (it should have been to the right of the viewport, not in the middle) <br>
+- The footer social media icons had an unexpected list view and wrong location. (it should have been to the right of the viewport, not in the middle) 
+<br>
 ![](assets/images/readme/bug-footer-list.png)
+<br>
 - To fix the unordered list view, the icon's unordered list display mode has been changed to flex.
-- To fix the location, the footer container display has been set to flex, and the footer items spacings are done using flex property justify-content: space-between; <br>
+- To fix the location, the footer container display has been set to flex, and the footer items spacings are done using flex property justify-content: space-between; - 
+<br>
 ![](assets/images/readme/bug-footer-list-fixed.png)
-
-The form text input window was too small, making inputting text difficult for users. <br>
+<br>
+The form text input window was too small, making inputting text difficult for users - 
+<br>
 ![](assets/images/readme/bug-form.jpg)
-It was fixed by by setting the textarea minimum height. <br>
+<br>
+It was fixed by by setting the textarea minimum height. 
+<br>
 ![](assets/images/readme/bug-form-fixed.png)
 
 #### **Lighthouse test**
@@ -408,7 +425,10 @@ The test procedures are as follows:
     - Mobile
     - Desktop
 
-The date of the test is 31/07/2023. The results are as follows: 
+<br>
+The date of the test is 31/07/2023. The results are as follows:
+<br> 
+
 ![](assets/images/readme/lighthouse-home-products.png)
 ![](assets/images/readme/lighthouse-faq-contact.png)
 ![](assets/images/readme/lighthouse-contact-responses.png)
@@ -425,6 +445,8 @@ The test procedures are as follows:
 - Report the results.
 
 The date of the test is 31/07/2023. The results are as follows:
+
+<br>
 ![](assets/images/readme/html-home-products.png)
 ![](assets/images/readme/html-faq-contact.png)
 ![](assets/images/readme/html-contact-responses.png)
@@ -481,6 +503,8 @@ The following tools have been used during the development:
 - Microsoft Snipping tool
 - TinyPNG website
 - Coolors website
+- Balsamiq Wireframes
+- Goodnotes app
 
 ---
 ## **Credits**
