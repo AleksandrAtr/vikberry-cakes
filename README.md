@@ -1,11 +1,10 @@
 # **Project Overview**
 
-[VikBerry Cakes](https://aleksandratr.github.io/vikberry-cakes/index.html) is a website that is designed for a homemade cake business. The website provides information about the business, its products, and means of contact.
+[VikBerry Cakes](https://aleksandratr.github.io/vikberry-cakes/index.html) is a website that is designed for a homemade cake business. The website provides information about the business, its products, and means of contact. <br>
 
 ![site on different devices](assets/images/readme/device-previews.png)
-
----
-
+<br>
+ 
 ## **Table of contents**
 * [Project overview](#Project-Overview)
 * [Table of contents](#table-of-contents)
@@ -24,7 +23,7 @@
 * [Technology](#technology)
 * [Credits](#credits)
 
----
+ 
 ## **Project Planning**
 
 ### **Target Audiences**
@@ -124,7 +123,7 @@ All Headings are set to "Playfair Display" Google font, a part of the serif fami
 All links and buttons are set to "Roboto", part of the sons-serif family. The font was chosen following research on the most readable font family for buttons and labels.
 All paragraph text uses Lato Google font, a part of the sans-serif family that provides a clean, modern look.
 
----
+ 
 ## **Main Features**
 The website has four pages - Home, Products, FAQ, and Contact. The layout of the pages is consistent throughout and includes:
 - A navigation bar.
@@ -180,7 +179,7 @@ Desktop view - <br> ![](assets/images/readme/home-desktop-footer.png)
 Mobile device view - <br>
 ![](assets/images/readme/home-mobile-footer.png)
 
----
+ 
 ### **Home page**
 The home page consists of the following:
 - [Navigation bar](#Navigation-bar)
@@ -206,7 +205,7 @@ Desktop view - <br> ![](assets/images/readme/home-desktop-reviews.png)
 Mobile device view - <br>
 ![](assets/images/readme/home-mobile-reviews.png)
 
----
+ 
 ### **Products page**
 The products page provides information about the business offers and displays individual products.
 
@@ -236,7 +235,7 @@ Desktop view - <br> ![](assets/images/readme/products-desktop-products.png)
 Mobile device view - <br>
 ![](assets/images/readme/products-mobile-products.png)
 
----
+ 
 ### **FAQ page**
 The Frequently Asked Questions (FAQ) page provides users with information about orders, products etc.
 
@@ -253,7 +252,7 @@ Desktop view - <br> ![](assets/images/readme/faq-desktop-faq.png)
 Mobile device view - <br>
 ![](assets/images/readme/faq-mobile-faq.png)
 
----
+ 
 ### **Contact page**
 The Contact page allows users to sign up for newsletters and send inquiries to VikBerry Cakes.
 
@@ -290,7 +289,7 @@ Desktop view - <br> ![](assets/images/readme/contacts-desktop-form.png)
 Mobile device view - <br>
 ![](assets/images/readme/contacts-mobile-form.png)
 
----
+ 
 
 ### **Newsletter response page**
 The page is a copy of the contact page with feedback information that confirms the user subscribed to the newsletter.
@@ -319,7 +318,7 @@ Desktop view - <br>
 Mobile device view - <br>
 ![](assets/images/readme/404-mobile.png)
 
----
+ 
 ## **Testing Phase**
 Manual testing is to be undertaken to check the functionality of the designed website. The test covers the following areas - 
 - Responsiveness
@@ -385,29 +384,35 @@ During the website development, there were numerous bugs found and fixed. These 
 - Accidentally deleted semicolons in CSS property values were fixed by adding them back.
 - Incorrect attribute tags and values were fixed by correcting them.
 - Improperly nested elements were fixed by ensuring the correct nesting of elements.
-- The footer height was too big for a mobile landscape view - 
-<br>
+- The footer height was too big for a mobile landscape view - <br>
+
 ![](assets/images/readme/bug-footer-height.png)
 <br>
-The fix was to redesign the footer to reduce its size -
-<br>
+The fix was to redesign the footer to reduce its size - <br>
+
 ![](assets/images/readme/bug-footer-height-fixed.png)
-- The footer social media icons had an unexpected list view and wrong location. (it should have been to the right of the viewport, not in the middle) 
 <br>
+
+- The footer social media icons had an unexpected list view and wrong location. (it should have been to the right of the viewport, not in the middle) <br>
+
 ![](assets/images/readme/bug-footer-list.png)
 <br>
+
 - To fix the unordered list view, the icon's unordered list display mode has been changed to flex.
-- To fix the location, the footer container display has been set to flex, and the footer items spacings are done using flex property justify-content: space-between; - 
-<br>
+- To fix the location, the footer container display has been set to flex, and the footer items spacings are done using flex property justify-content: space-between; - <br>
+
 ![](assets/images/readme/bug-footer-list-fixed.png)
 <br>
-The form text input window was too small, making inputting text difficult for users - 
-<br>
+
+The form text input window was too small, making inputting text difficult for users - <br>
+
 ![](assets/images/readme/bug-form.jpg)
 <br>
-It was fixed by by setting the textarea minimum height. 
-<br>
+
+It was fixed by by setting the textarea minimum height. <br>
+
 ![](assets/images/readme/bug-form-fixed.png)
+<br>
 
 #### **Lighthouse test**
 Lighthouse is an automated tool for improving web page quality, including performance, accessibility, and SEO audits. It's a feature that is built into the DevOps tool. Each website page is tested using the lighthouse tool. 
@@ -444,14 +449,19 @@ The test procedures are as follows:
 - Repeat for all pages.
 - Report the results.
 
-The date of the test is 31/07/2023. The results are as follows:
+The date of the test is 31/07/2023. The results are as follows: <br>
 
-<br>
 ![](assets/images/readme/html-home-products.png)
-![](assets/images/readme/html-faq-contact.png)
-![](assets/images/readme/html-contact-responses.png)
-![](assets/images/readme/html-404.png)
+<br>
 
+![](assets/images/readme/html-faq-contact.png)
+<br>
+
+![](assets/images/readme/html-contact-responses.png)
+<br>
+
+![](assets/images/readme/html-404.png)
+<br>
 
 #### **CSS validator test**
 The website has been checked using CSS validation service, which verifies web developers' CSS code against W3C specifications, ensuring consistent and correct application across different browsers and devices and ensuring valid syntax and standards.
@@ -462,18 +472,24 @@ The test procedures are as follows:
 - Undertake check.
 - Report the results
 
-The date of the test is 31/07/2023. The results are as follows:
+The date of the test is 31/07/2023. The results are as follows: <br>
+
 ![](assets/images/readme/css-validator.png)
+<br>
 
 #### **Features test**
 All the features were tested as part of the responsive and web browser compatibility tests - no issues to report.
 
 #### **User stories test**
-The website has been checked against business and user stories. The results are as follows:
-![](assets/images/readme/user-stories-business-test.png)
-![](assets/images/readme/user-stories-test.png)
+The website has been checked against business and user stories. The results are as follows: <br>
 
----
+![](assets/images/readme/user-stories-business-test.png)
+<br>
+
+![](assets/images/readme/user-stories-test.png)
+<br>
+
+ 
 ## **Deployment**
 The website is deployed on GitHub following the below steps:
 - Go to my GitHub repository's "Settings" tab.
@@ -483,7 +499,7 @@ The website is deployed on GitHub following the below steps:
 
 GitHub Pages will now build and deploy the website. Once the process is complete, a link to the live website will be in my repository settings' "GitHub Pages" section.
 
----
+ 
 ## **Technology**
 The website has been built using the following tech:
 - HTML5
@@ -506,7 +522,7 @@ The following tools have been used during the development:
 - Balsamiq Wireframes
 - Goodnotes app
 
----
+ 
 ## **Credits**
 Website resources: <br>
 - Logo - logo has been created using the online Free Logo Design Center - https://www.freelogodesign.org/
@@ -529,6 +545,11 @@ http://jsfiddle.net/a3nyexqg/
 
 The project has been developed using VS Code, Git and GitHub. A new GitHub account has been created for the Code Institute course, and all except one commit for the project have been done using the same Git account. However, on the 25th of June, I made a commit from my other GitHub account ALATR1 which was set on my personal computer, and I forgot to switch it to the new one. The committed file was just a blank project CSS file.
 
-Thank you to my mentor Aleksei Konovalov for sharing his knowledge and support throughout the project. 
+Personal appreciation:
 
-Thank you to my wife Margarita Komarova for her support and the feedback on the visual representation of the website.
+Thank you, Code Institute team, for your invaluable help and support throughout the course. Your efforts are greatly appreciated.
+
+I'm thankful to my mentor, Aleksei Konovalov, for his invaluable guidance and support. I couldn't have achieved my goals without him. Thank you, Aleksei!
+
+I'm grateful to my wife, Margarita, for her support and feedback on the website's visuals, which made it more user-friendly and appealing. Thank you, Margarita!
+
